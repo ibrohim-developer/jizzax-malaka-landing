@@ -1,0 +1,1 @@
+# jizzax-malaka-landing
