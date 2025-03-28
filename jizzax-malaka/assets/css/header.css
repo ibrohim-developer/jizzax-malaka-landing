@@ -23,6 +23,14 @@
     box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
     animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
 }
+
+.navbar-area.style-2 span {
+    color: #fff
+  } 
+
+.navbar-area.style-2.sticky span {
+  color: var(--blackColor)
+} 
 .navbar-area.sticky .navbar {
     border-radius: 0;
     padding-top: 10px;

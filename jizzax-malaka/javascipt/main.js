@@ -15,7 +15,7 @@ getNews()
 function mapNews(data) {
   return data.forEach((item) => {
     newsSection.innerHTML += `
-        <div key="${item.id}" class="col-lg-4 col-sm-6 col-md-6" style="cursor: pointer" onclick="window.location.href='blog.html?id=${item.id}'">
+        <div key="${item.id}" class="col-lg-4 col-sm-6 col-md-6" style="cursor: pointer" onclick="window.location.href='blog.html?id=${item.documentId}'">
           <div
             class="activities-card style-2"
             data-aos="fade-up"
