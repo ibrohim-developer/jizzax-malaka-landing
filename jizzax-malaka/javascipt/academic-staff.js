@@ -96,12 +96,37 @@ function displayStaff(category) {
 
 displayStaff(1)
 
-function setActiveCategory(selectedElement) {
-    // Remove 'active' class from all categories
-    document.querySelectorAll("li a").forEach((element) => {
-        element.classList.remove("active");
-    });
+function setActiveCategory(selectedElement, category) {
+  const currentElement = document.getElementById(`${category}`)
 
-    // Add 'active' class to the clicked category
-    selectedElement.classList.add("active");
+  // Remove 'active' class from all categories
+  document.querySelectorAll('li a').forEach(element => {
+    element.classList.remove('active')
+  })
+
+  // Add 'active' class to the clicked category
+  currentElement.classList.add('active')
+  displayStaff(category)
+
+  const url = new URL(window.location.href);
+  url.searchParams.set("category", category);
+
+  // Update the URL without reloading the page
+  window.history.pushState({}, "", url);
 }
+
+function getActiveCategoryWithUrl () {
+  const params = new URLSearchParams(window.location.search)
+  const categoryId = params.get('category')
+
+  const currentElement = document.getElementById(`${categoryId}`)
+  // Remove 'active' class from all categories
+  document.querySelectorAll('li a').forEach(element => {
+    element.classList.remove('active')
+  })
+
+  currentElement.classList.add('active')
+  displayStaff(parseInt(categoryId))
+}
+
+getActiveCategoryWithUrl()

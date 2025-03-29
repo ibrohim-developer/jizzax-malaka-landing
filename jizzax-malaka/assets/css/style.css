@@ -396,6 +396,9 @@ Top Navbar Area CSS
   color: var(--paragraphColor);
 }
 
+.nav-item {
+  cursor: pointer;
+}
 
 
 /*================================================

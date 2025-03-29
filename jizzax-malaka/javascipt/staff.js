@@ -1,4 +1,4 @@
-const staffContainer = document.getElementById("staffContainer")
+const staffContainer = document.getElementById('staffContainer')
 const staff = [
   {
     id: 1,
@@ -183,13 +183,12 @@ const staff = [
   }
 ]
 
+function displayStaff (category) {
+  staffContainer.innerHTML = ''
+  const currentStaff = staff.filter(item => item.categoryNumber === category)
 
-function displayStaff(category) {
-  staffContainer.innerHTML = "";
-  const currentStaff = staff.filter((item) => item.categoryNumber === category);
-
-    return currentStaff.forEach((item) => {
-        staffContainer.innerHTML += `
+  return currentStaff.forEach(item => {
+    staffContainer.innerHTML += `
             <li class="news-item" style="margin-bottom: 24px; border-radius: 5px; padding: 25px 30px; background-color: #fff; box-shadow: 0px 5px 12px 0px rgb(227, 226, 226);" data-aos="fade-up" data-aos-delay="100">
                 <div class="image" style="width: unset; margin-right: 20px;">
                     <img
@@ -219,17 +218,43 @@ function displayStaff(category) {
                 </div>
             </li>
         `
-    }) 
+  })
 }
 
 displayStaff(1)
 
-function setActiveCategory(selectedElement) {
-    // Remove 'active' class from all categories
-    document.querySelectorAll("li a").forEach((element) => {
-        element.classList.remove("active");
-    });
+function setActiveCategory(category) {
+  const currentElement = document.getElementById(`${category}`)
 
-    // Add 'active' class to the clicked category
-    selectedElement.classList.add("active");
+  // Remove 'active' class from all categories
+  document.querySelectorAll('li a').forEach(element => {
+    element.classList.remove('active')
+  })
+
+  // Add 'active' class to the clicked category
+  currentElement.classList.add('active')
+  displayStaff(category)
+
+  const url = new URL(window.location.href);
+  url.searchParams.set("category", category);
+
+  // Update the URL without reloading the page
+  window.history.pushState({}, "", url);
+
 }
+
+function getActiveCategoryWithUrl () {
+  const params = new URLSearchParams(window.location.search)
+  const categoryId = params.get('category')
+
+  const currentElement = document.getElementById(`${categoryId}`)
+  // Remove 'active' class from all categories
+  document.querySelectorAll('li a').forEach(element => {
+    element.classList.remove('active')
+  })
+
+  currentElement.classList.add('active')
+  displayStaff(parseInt(categoryId))
+}
+
+getActiveCategoryWithUrl()

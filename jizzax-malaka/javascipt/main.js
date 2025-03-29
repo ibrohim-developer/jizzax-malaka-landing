@@ -64,3 +64,11 @@ function truncateText(text, wordLimit = 20) {
   
     return `${month}.${day}.${year}`
   }
+
+
+function handleCategoryClick (event, categoryId, categoryName = "departments") {
+  event.preventDefault()
+
+  // Redirect to academics.html with the category ID
+  window.location.href = `${categoryName}.html?category=${categoryId}`
+}

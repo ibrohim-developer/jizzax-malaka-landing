@@ -1,4 +1,4 @@
-const newsSection = document.getElementById('blogs')
+const blogsSection = document.getElementById('blogs')
 
 async function getNews () {
   try {
@@ -14,7 +14,7 @@ getNews()
 
 function mapNews(data) {
     return data.forEach((item) => {
-      newsSection.innerHTML += `
+      blogsSection.innerHTML += `
           <div key="${item.id}" class="col-lg-6 col-sm-6 col-md-6" style="cursor: pointer" onclick="window.location.href='blog.html?id=${item.documentId}'">
             <div
               class="activities-card style-2"
