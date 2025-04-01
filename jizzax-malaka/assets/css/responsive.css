@@ -80,6 +80,7 @@
   }
   .banner-content-2 .content h1 {
     font-size: 38px;
+    line-height: 1.2;
   }
   .banner-content-2 .content span{
     font-size: 16px;
@@ -1948,6 +1949,7 @@
   .banner-content-2 .content h1 {
     font-size: 50px;
     margin-bottom: 20px;
+    line-height: 1.2;
   }
   .banner-content-2 .content p {
     font-size: 16px;
@@ -3860,6 +3862,7 @@
   }
   .banner-content-2 .content h1 {
     font-size: 65px;
+    line-height: 1.2;
   }
   .banner-content-2 .content p {
     font-size: 16px;

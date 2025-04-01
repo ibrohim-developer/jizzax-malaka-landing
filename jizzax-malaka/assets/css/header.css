@@ -1087,3 +1087,30 @@ font-weight: 500;
 }/*# sourceMappingURL=header.css.map */
 
 
+.navbar-area .navbar img {
+    width: 62px;
+    height: 62px;
+}
+
+@media (min-width: 1300px) {
+    .navbar-area .navbar span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .navbar-area .navbar span {
+      
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar-area .navbar img {
+        width: 58px;
+        height: 58px;
+    }
+}
+
+

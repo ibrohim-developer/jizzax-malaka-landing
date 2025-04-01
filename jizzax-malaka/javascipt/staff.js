@@ -4,6 +4,7 @@ const staff = [
     id: 1,
     image: './assets/img/staff/category-1.jpg',
     name: 'Abdusalomov Sardor Abduqodir oʻgʻli',
+    description: "Jizzax viloyati pedagogik mahorat markazi Inson resurslarini rivojlantirish bo‘yicha bosh mutaxassisi. 1994-yil Zafarobod tumanida tug‘ilgan. 2022-yil  Sh.Rashidov nomidagi Samarqand davlat universitetining inson resurslarini rivojlantirish fakultetini kadrlar menejmenti ixtisosligi bo‘yicha tamomlagan. Ko‘p yillar ta’lim sohasida - dastlab Samarqand viloyati Oqdaryo tumani “Oltin-kuz” MCHJda bosh menejer, Paxtakor tuman ixtisoslashtirilgan maktabida HR-menejer bo‘lib ishlagan. Hududiy markazda mehnat faoliyati 2025-yildan Inson resurslarini rivojlantirish bo‘yicha bosh mutaxassis sifatida boshlagan",
     position: 'Bosh mutaxassis',
     phone: '+998958119400',
     email: 'ismimsardor@gmail.com',
@@ -14,9 +15,10 @@ const staff = [
     id: 2,
     image: './assets/img/staff/category-2.jpeg',
     name: 'To ‘rayev Shuxrat Tajiboyevich',
+    description: " Jizzax viloyati pedagogik mahorat markazi moliya-iqtisod va buxgalteriya bo‘limi bosh hisobchisi. 1976-yil 19-may Jizzax shahrida tug‘ilgan. Ma’lumoti oliy.  2018-yildan shu lavozimda ishlab kelmoqda.",
     position: 'Bosh hisobchi',
     phone: '+998915993200',
-    email: 'Sh_Turayev@gmail.com',
+    email: 'sh_turayev@gmail.com',
     workTime: '8:30 - 16:30',
     categoryNumber: 2
   },
@@ -189,12 +191,13 @@ function displayStaff (category) {
 
   return currentStaff.forEach(item => {
     staffContainer.innerHTML += `
-            <li class="news-item" style="margin-bottom: 24px; border-radius: 5px; padding: 25px 30px; background-color: #fff; box-shadow: 0px 5px 12px 0px rgb(227, 226, 226);" data-aos="fade-up" data-aos-delay="100">
-                <div class="image" style="width: unset; margin-right: 20px;">
+            <li class="news-item" style="display: block; margin-bottom: 24px; border-radius: 5px; padding: 25px 30px; background-color: #fff; box-shadow: 0px 5px 12px 0px rgb(227, 226, 226);" data-aos="fade-up" data-aos-delay="100">
+              <div style="display: flex; margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 20px">
+                <div class="image" style="width: unset; margin-right: 10px;">
                     <img
                     src="${item.image}"
                     alt="image"
-                    style="height: 200px; width: 200px; object-fit: cover; border-radius: 5px;"
+                    style="height: 200px; width: 200px; object-fit: cover; border-radius: 5px; border: 1px solid #0000000f;"
                     />
                 </div>
                 <div class="content">
@@ -216,6 +219,10 @@ function displayStaff (category) {
                         <p style="margin-bottom: 8px; margin-left: 8px;">${item.workTime}</p>
                     </div>
                 </div>
+              </div>
+              <p>
+                ${item.description}
+              </p>
             </li>
         `
   })

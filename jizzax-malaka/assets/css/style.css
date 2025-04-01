@@ -529,6 +529,7 @@ Banner Area 2 CSS
   color: var(--whiteColor);
   font-family: 'Lexend', sans-serif;
   font-size: 90px;
+  line-height: 90px;
 }
 
 .banner-content-2 .content p {

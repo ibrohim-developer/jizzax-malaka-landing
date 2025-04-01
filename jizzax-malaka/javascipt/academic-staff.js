@@ -96,7 +96,7 @@ function displayStaff(category) {
 
 displayStaff(1)
 
-function setActiveCategory(selectedElement, category) {
+function setActiveCategory(category) {
   const currentElement = document.getElementById(`${category}`)
 
   // Remove 'active' class from all categories
