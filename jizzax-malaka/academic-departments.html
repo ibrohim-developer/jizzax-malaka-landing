@@ -22,7 +22,7 @@
     <title>Canyon - College University HTML Template</title>
     <link rel="icon" type="image/png" href="assets/img/all-img/favicon.png" />
   </head>
-  <body>
+  <body style="background-color: #f2f8f1">
     <!-- preloader -->
     <div class="preloader-container" id="preloader">
       <div class="preloader-dot"></div>
@@ -33,82 +33,32 @@
     </div>
     <!-- preloader -->
 
-    <!-- Start Top Navbar Area -->
-    <div class="top-area">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-5 col-12 col-xm-12">
-            <div class="top-left-items">
-              <ul>
-                <li>
-                  <i class="bx bxs-time"></i> Dushanba - Shanba: 9:00 - 18:00
-                </li>
-                <li>
-                  <i class="bx bxs-envelope"></i>
-                  <a href="#">contact@Clgunme.edu</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-7 col-12 col-xm-12">
-            <div class="top-right-items">
-              <ul>
-                <li>
-                  <i class="bx bxs-map"></i>
-                  <a href="contact-us.html">Visit Us</a>
-                </li>
-                <li><a href="student-activities.html">Students</a></li>
-                <li><a href="faculty.html">Faculty & Staff</a></li>
-                <li><a href="alumni.html">Alumni</a></li>
-                <li><a href="the-campus-experience.html">Visitors</a></li>
-                <li><a href="online-education.html">Media</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Top Navbar Area -->
-
     <!-- Start Navbar Area Start -->
     <div class="navbar-area" id="navbar">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
           <a
-          class="navbar-brand"
-          style="display: flex; align-items: center"
-          href="index.html"
-        >
-          <img
-            class="logo-light"
-            src="assets/img/logo/logo.png"
-            alt="logo"
-            style="
-              border-radius: 50%;
-              object-fit: cover;
-            "
-          />
-          <img
-            class="logo-dark"
-            src="assets/img/logo/logo.png"
-            alt="logo"
-            style="
-              width: 62px;
-              height: 62px;
-              border-radius: 50%;
-              object-fit: cover;
-              border: 1px solid black;
-            "
-          />
-          <span
-            style="
-              margin-left: 12px;
-              font-weight: 700;
-            "
-            >Jizzax viloyati <br />
-            Pedagogik mahorat markazi
-          </span>
-        </a>
+            class="navbar-brand"
+            style="display: flex; align-items: center"
+            href="index.html"
+          >
+            <img
+              class="logo-dark"
+              src="assets/img/logo/logo.png"
+              alt="logo"
+              style="
+                width: 62px;
+                height: 62px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 1px solid black;
+              "
+            />
+            <span style="margin-left: 12px; font-weight: 700"
+              >Jizzax viloyati <br />
+              Pedagogik mahorat markazi
+            </span>
+          </a>
           <a
             class="navbar-toggler"
             data-bs-toggle="offcanvas"
@@ -182,7 +132,9 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="handleCategoryClick(event, 11)">Matbuot</a>
+                    <a class="nav-link" onclick="handleCategoryClick(event, 11)"
+                      >Matbuot</a
+                    >
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" onclick="handleCategoryClick(event, 12)"
@@ -202,30 +154,40 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a class="nav-link"  onclick="handleCategoryClick(event, 1, 'academic-departments')"
+                    <a
+                      class="nav-link"
+                      onclick="handleCategoryClick(event, 1, 'academic-departments')"
                       >Pedagogika va psixologiya ta'lim texnologiyalari
                       kafedrasi</a
                     >
                   </li>
-                  <li class="nav-item"> 
-                    <a class="nav-link"  onclick="handleCategoryClick(event, 2, 'academic-departments')"
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      onclick="handleCategoryClick(event, 2, 'academic-departments')"
                       >Maktabgacha, boshlang'ich va maxsus ta'lim metodikasi
                       kafedrasi</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link"  onclick="handleCategoryClick(event, 3, 'academic-departments')"
+                    <a
+                      class="nav-link"
+                      onclick="handleCategoryClick(event, 3, 'academic-departments')"
                       >Tillarni o'qitish metodikasi va ijtimoiy iqtisodiy fanlar
                       kafedrasi</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="handleCategoryClick(event, 4, 'academic-departments')"
+                    <a
+                      class="nav-link"
+                      onclick="handleCategoryClick(event, 4, 'academic-departments')"
                       >Aniq va tabiiy fanlar metodikasi kafedrasi</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="handleCategoryClick(event, 5, 'academic-departments')"
+                    <a
+                      class="nav-link"
+                      onclick="handleCategoryClick(event, 5, 'academic-departments')"
                       >Ijtimoiy-iqtisodiy fanlar kafedrasi</a
                     >
                   </li>
@@ -237,14 +199,10 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a href="#" class="nav-link"
-                      >Akademik faoliyatlar</a
-                    >
+                    <a href="#" class="nav-link">Akademik faoliyatlar</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link"
-                      >Pedagogik faoliyatlar</a
-                    >
+                    <a href="#" class="nav-link">Pedagogik faoliyatlar</a>
                   </li>
                 </ul>
               </li>
@@ -254,9 +212,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a href="#" class="nav-link"
-                      >BADIIY ADABIYOTLAR</a
-                    >
+                    <a href="#" class="nav-link">BADIIY ADABIYOTLAR</a>
                   </li>
                   <li class="nav-item">
                     <a href="#" class="nav-link">DARSLIKLAR</a>
@@ -576,14 +532,10 @@
               <div class="accordion-body">
                 <div class="accordion" id="navbarAccordion31">
                   <div class="accordion-item">
-                    <a href="#" class="accordion-link">
-                      Darsliklar
-                    </a>
+                    <a href="#" class="accordion-link"> Darsliklar </a>
                   </div>
                   <div class="accordion-item">
-                    <a href="#" class="accordion-link">
-                      Anjumanlar
-                    </a>
+                    <a href="#" class="accordion-link"> Anjumanlar </a>
                   </div>
                 </div>
               </div>
@@ -630,37 +582,117 @@
     <!-- End Responsive Navbar Area -->
 
     <!-- Start Section Banner Area -->
-    <div class="section-banner bg-8">
-      <div class="container">
-        <div class="banner-spacing"></div>
+    <div class="section-banner bg-8" style="height: 400px;">
+      <div style="background-color: rgba(22, 21, 21, 0.528);">
+        <div class="container">
+          <div style="height: 400px;">
+          </div>
+        </div>
       </div>
     </div>
     <!-- End Section Banner Area -->
 
     <!-- Start Academics Section Area -->
-    <div class="academics-section ptb-100">
+    <div class="academics-section pb-100" style="padding-top: 50px;">
       <div class="container">
+        <div
+        class="section-title section-title-2"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <h2>Kafedralar</h2>
+      </div>
         <div class="row">
           <div class="col-lg-4">
             <div class="academics-left">
               <div class="ac-category">
                 <ul>
-                  <li style="cursor: pointer;"><a class="active" style="padding: 15px;" onclick="setActiveCategory(1);" id="1">Pedagogika va psixologiya ta'lim texnologiyalari kafedrasi</a></li>
-                  <li style="cursor: pointer;"><a class="" style="padding: 15px;" onclick="setActiveCategory(2);" id="2">Maktabgacha, boshlang'ich va maxsus ta'lim metodikasi kafedrasi</a></li>
-                  <li style="cursor: pointer;"><a class="" style="padding: 15px;" onclick="setActiveCategory(3);" id="3">Tillarni oʻqitish metodikasi va ijtimoiy iqtisodiy fanlar kafedrasi</a></li>
-                  <li style="cursor: pointer;"><a class="" style="padding: 15px;" onclick="setActiveCategory(4);" id="4">Aniq va tabiiy fanlar metodikasi kafedrasi</a></li>
-                  <li style="cursor: pointer;"><a class="" style="padding: 15px;" onclick="setActiveCategory(5);" id="5">Ijtimoiy-iqtisodiy fanlar kafedrasi</a></li>
-                 
+                  <li style="cursor: pointer">
+                    <a
+                      class="active"
+                      style="
+                        padding: 15px;
+                        background-color: white;
+                        color: #002147;
+                        box-shadow: 0px 5px 12px 0px rgb(227, 226, 226);
+                        border-radius: 5px;
+                      "
+                      onclick="setActiveCategory(1);"
+                      id="1"
+                      >Pedagogika va psixologiya ta'lim texnologiyalari
+                      kafedrasi</a
+                    >
+                  </li>
+                  <li style="cursor: pointer">
+                    <a
+                      class=""
+                      style="
+                        padding: 15px;
+                        background-color: white;
+                        color: #002147;
+                        box-shadow: 0px 5px 12px 0px rgb(227, 226, 226);
+                        border-radius: 5px;
+                      "
+                      onclick="setActiveCategory(2);"
+                      id="2"
+                      >Maktabgacha, boshlang'ich va maxsus ta'lim metodikasi
+                      kafedrasi</a
+                    >
+                  </li>
+                  <li style="cursor: pointer">
+                    <a
+                      class=""
+                      style="
+                        padding: 15px;
+                        background-color: white;
+                        color: #002147;
+                        border-radius: 5px;
+                        box-shadow: 0px 5px 12px 0px rgb(227, 226, 226);
+                      "
+                      onclick="setActiveCategory(3);"
+                      id="3"
+                      >Tillarni oʻqitish metodikasi va ijtimoiy iqtisodiy fanlar
+                      kafedrasi</a
+                    >
+                  </li>
+                  <li style="cursor: pointer">
+                    <a
+                      class=""
+                      style="
+                        padding: 15px;
+                        background-color: white;
+                        color: #002147;
+                        border-radius: 5px;
+                        box-shadow: 0px 5px 12px 0px rgb(227, 226, 226);
+                      "
+                      onclick="setActiveCategory(4);"
+                      id="4"
+                      >Aniq va tabiiy fanlar metodikasi kafedrasi</a
+                    >
+                  </li>
+                  <li style="cursor: pointer">
+                    <a
+                      class=""
+                      style="
+                        padding: 15px;
+                        background-color: white;
+                        color: #002147;
+                        border-radius: 5px;
+                        box-shadow: 0px 5px 12px 0px rgb(227, 226, 226);
+                      "
+                      onclick="setActiveCategory(5);"
+                      id="5"
+                      >Ijtimoiy-iqtisodiy fanlar kafedrasi</a
+                    >
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-lg-8" style="padding-left: 40px;">
-            <div class="news-content" style="background-color: unset;">
-                <ul style="padding: 0;" id="staffContainer">
-
-                </ul>
-              </div>
+          <div class="col-lg-8" style="padding-left: 40px">
+            <div class="news-content" style="background-color: unset">
+              <ul style="padding: 0" id="staffContainer"></ul>
+            </div>
           </div>
         </div>
       </div>
@@ -674,7 +706,9 @@
           <div class="row align-items-center">
             <div class="col-lg-4">
               <div class="cpr-left">
-                <p>Copyright © <a href="#">Jizzax viloyati Mahorat Markazi</a></p>
+                <p>
+                  Copyright © <a href="#">Jizzax viloyati Mahorat Markazi</a>
+                </p>
               </div>
             </div>
             <div class="col-lg-8">
@@ -700,7 +734,16 @@
             </div>
           </div>
           <div class="copy-logo">
-            <img src="assets/img/logo/logo.png" alt="image" style="width: 110px; height: 110px; border-radius: 50%; border: 1px solid #2eca7f" />
+            <img
+              src="assets/img/logo/logo.png"
+              alt="image"
+              style="
+                width: 110px;
+                height: 110px;
+                border-radius: 50%;
+                border: 1px solid #2eca7f;
+              "
+            />
           </div>
         </div>
       </div>
