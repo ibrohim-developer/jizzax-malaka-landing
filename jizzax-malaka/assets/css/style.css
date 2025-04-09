@@ -184,6 +184,14 @@ p:last-child {
   background-color: var(--blackColor);
 }
 
+.telegram-btn {
+  background-color: #3f9abe;
+}
+
+.telegram-btn:hover {
+  background-color: #307793;
+}
+
 a.under-btn {
   font-weight: 500;
   text-decoration: underline;
