@@ -252,3 +252,27 @@
 	});
 
 }(jQuery));
+
+
+let currentIndex = 0;
+const slide = document.getElementById('carouselSlide');
+const dots = document.querySelectorAll('.dot');
+const totalSlides = slide.children.length;
+
+function updateSlidePosition() {
+  slide.style.transform = `translateX(-${currentIndex * 640}px)`;
+  dots.forEach(dot => dot.classList.remove('active'));
+  dots[currentIndex].classList.add('active');
+}
+
+function goToSlide(index) {
+  currentIndex = index;
+  updateSlidePosition();
+}
+
+function autoPlay() {
+  currentIndex = (currentIndex + 1) % totalSlides;
+  updateSlidePosition();
+}
+
+setInterval(autoPlay, 3000);

@@ -165,7 +165,7 @@ p:last-child {
 
 /*default-btn*/
 .default-btn {
-  background-color: var(--mainColor);
+  background-color: #002147;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   padding: 20px 45px;
@@ -967,7 +967,7 @@ About Us Area 2 CSS
 .about-us-area-2 .content-items .content {
   max-width: 615px;
   padding: 50px 50px;
-  background-color: var(--secounderyColor);
+  background-color: #f0f7ff;
   position: absolute;
   content: '';
   top: 10%;
@@ -1034,8 +1034,8 @@ About Us Area 2 CSS
   right: 32%;
   bottom: 0;
   height: 35px;
-  background-color: var(--secounderyColor);
-  color: var(--mainColor);
+  background-color: #f0f7ff;
+  color: #002147;
   border-radius: 25px;
   font-size: 18px;
   padding: 0;
@@ -1062,8 +1062,8 @@ About Us Area 2 CSS
   border-radius: 25px;
   font-size: 16px;
   cursor: pointer;
-  background-color: var(--secounderyColor);
-  color: var(--mainColor);
+  background-color: #f0f7ff;
+  color: #002147;
 }
 .about-content-courser .owl-dots .owl-dot{
   margin-right: 10px;
@@ -1079,8 +1079,8 @@ About Us Area 2 CSS
   outline: none;
 }
 .about-content-courser .owl-dots .owl-dot.active button {
-  background-color: var(--mainColor);
-  color: var(--whiteColor);
+  background-color:#002147 ;
+  color:  #f0f7ff;
 }
 
 /*================================================
@@ -2179,7 +2179,7 @@ Features Area CSS
   position: relative;
 }
 .features-content-2{
-  background-color: var(--secounderyColor);
+  background-color: #f0f7ff;
   position: relative;
 }
 .features-content .sub-title, .features-content-2 .sub-title{
@@ -5199,4 +5199,53 @@ Go Top CSS
   100% {
     scale: 1;
  }
+}
+.carousel-container {
+  position: relative;
+  width: 640px;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+  width: 640px;
+  height: 550px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.dots {
+  position: absolute;
+  text-align: center;
+  bottom: 15px;
+  right: 50%;
+  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #f0f7ff;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #001c48;
 }

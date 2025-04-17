@@ -264,11 +264,11 @@ const staff = [
   },
   {
     id: 23,
-    image: './assets/img/staff/category-6-1.png',
-    name: 'Norboyev Nekro‘z Nurboy o‘g‘li',
+    image: './assets/img/staff/category-6-2.jpg',
+    name: 'Ubaydullayev Abbos Hakim o‘g‘li',
     description:
-      '2020-yil Jizzax Davlat Pedagogika Instituti “Informatika o‘qitish metodi- kasi” yo‘nalishini tamomlagan (Bakalavr). 2022 yil Jizzax Davlat Pedagogika Instituti “Ta’limda axborot texnologiyalari” yo‘nalishini tamomlagan (Magistr). 2022-2022-yillar Jizzax viloyat pedagoglarni yangi metodika- larga o‘rgatish milliy markazi “O‘quv jarayonini tashkil etish” bo‘limi uslubchisi. 2022-2024-yillar Jizzax viloyat pedagoglarni yangi metodikalarga o‘rgatish milliy markazi “AKT va texnik ta’minot” bo‘limi boshligi. 2025-yildan – Jizzax viloyati pedagogik mahorat markazi “Raqamli texnologiyalarni rivojlantirish” bo‘limi bosh mutaxassisi.',
-    position: 'Yetakchi mutaxassisi',
+      '2021-yil, Muhammad Al-Xorazmiy nomidagi Toshkent Axbo- rot texnologiyalari universiteti “Axborot xavfsizligi” yo‘nalishini ta- momlagan (Bakalavr). 2021-2024-yillar Jizzax viloyat Jizzax shahridagi Prezident maktabida “Muhandis-dasturchi” lavozimida ishlagan. 2025-yildan – Jizzax viloyati pedagogik mahorat markazi “Raqamli texnologiyalarni rivojlantirish” bo‘limi boshlig‘i lavozimida ishlab kelmoqda.',
+    position: 'Bosh mutaxassisi',
     phone: '+998939662223',
     email: 'norboyev@gmail.com',
     workTime: '8:30 - 16:30',
@@ -277,9 +277,9 @@ const staff = [
   {
     id: 24,
     image: './assets/img/staff/category-6-1.png',
-    name: 'Ubaydullayev Abbos Hakim o‘g‘li',
+    name: 'Norboyev Nekro‘z Nurboy o‘g‘li',
     description:
-      '2021-yil, Muhammad Al-Xorazmiy nomidagi Toshkent Axbo- rot texnologiyalari universiteti “Axborot xavfsizligi” yo‘nalishini ta- momlagan (Bakalavr). 2021-2024-yillar Jizzax viloyat Jizzax shahridagi Prezident maktabida “Muhandis-dasturchi” lavozimida ishlagan. 2025-yildan – Jizzax viloyati pedagogik mahorat markazi “Raqamli texnologiyalarni rivojlantirish” bo‘limi boshlig‘i lavozimida ishlab kelmoqda.',
+      '2020-yil Jizzax Davlat Pedagogika Instituti “Informatika o‘qitish metodi- kasi” yo‘nalishini tamomlagan (Bakalavr). 2022 yil Jizzax Davlat Pedagogika Instituti “Ta’limda axborot texnologiyalari” yo‘nalishini tamomlagan (Magistr). 2022-2022-yillar Jizzax viloyat pedagoglarni yangi metodika- larga o‘rgatish milliy markazi “O‘quv jarayonini tashkil etish” bo‘limi uslubchisi. 2022-2024-yillar Jizzax viloyat pedagoglarni yangi metodikalarga o‘rgatish milliy markazi “AKT va texnik ta’minot” bo‘limi boshligi. 2025-yildan – Jizzax viloyati pedagogik mahorat markazi “Raqamli texnologiyalarni rivojlantirish” bo‘limi bosh mutaxassisi.',
     position: 'Yetakchi mutaxassisi',
     phone: '+998939662223',
     email: 'norboyev@gmail.com',
@@ -452,26 +452,36 @@ const staff = [
     workTime: '8:30 - 16:30',
     categoryNumber: 10
   },
-  // {
-  //   id: 40,
-  //   image: './assets/img/staff/category-10-9.jpeg',
-  //   name: 'Quvvatov Maxkam',
-  //   position: 'Matematika metodisti',
-  //   phone: '+998992880062',
-  //   email: 'quvvatovm@gmail.com',
-  //   workTime: '8:30 - 16:30',
-  //   categoryNumber: 10
-  // },
-  // {
-  //   id: 41,
-  //   image: './assets/img/staff/category-10-9.jpeg',
-  //   name: 'Quvvatov Maxkam',
-  //   position: 'Matematika metodisti',
-  //   phone: '+998992880062',
-  //   email: 'quvvatovm@gmail.com',
-  //   workTime: '8:30 - 16:30',
-  //   categoryNumber: 10
-  // }
+  {
+    id: 40,
+    image: './assets/img/staff/user-image.jpg',
+    name: "Eryigitova Mag'firat",
+    position: "Boshlang'ich ta'lim fani metodisti",
+    phone: '-',
+    email: '-',
+    workTime: '8:30 - 16:30',
+    categoryNumber: 10
+  },
+  {
+    id: 41,
+    image: './assets/img/staff/user-image.jpg',
+    name: 'Umirkulova Gulnoz Xidirovna',
+    position: "Tasviriy san'at va chizmachilik fani metodisti",
+    phone: '-',
+    email: '-',
+    workTime: '8:30 - 16:30',
+    categoryNumber: 10
+  },
+  {
+    id: 42,
+    image: './assets/img/staff/user-image.jpg',
+    name: "Abduqayumov Shohruh Jamolxon o'gli",
+    position: "Informatika va AT fani metodisti",
+    phone: '+998947297778',
+    email: '-',
+    workTime: '8:30 - 16:30',
+    categoryNumber: 10
+  }
 ]
 
 function displayStaff (category) {
