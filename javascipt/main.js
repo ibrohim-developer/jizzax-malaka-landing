@@ -1,14 +1,9 @@
+'use strict'
 const newsSection = document.getElementById('news')
-
+import { data } from "../javascipt/news.js"
 async function getNews () {
-  try {
-    const result = await fetch('http://localhost:1337/api/blogs?populate=image')
-    const newsData = await result.json()
-    console.log(newsData.data)
-    mapNews(newsData.data)
-  } catch (e) {
-    console.error(e)
-  }
+    console.log(data)
+    mapNews(data)
 }
 getNews()
 
@@ -23,7 +18,7 @@ function mapNews(data) {
           >
               <div class="image">
                 <img
-                  src="http://localhost:1337${item.image.url}"
+                  src="http://localhost:1337${item.image}"
                   alt="image"
                   style="height: 250px; object-fit: cover"
                 />
@@ -36,7 +31,7 @@ function mapNews(data) {
                 <div style="display: flex; align-items: center">
                   <i class="bx bxs-time" style="color: #2eca7f"></i>
                   <p style="margin-left: 5px; color: #2eca7f">
-                    ${formatDate(item.createdAt)}
+                    ${item.createdAt}
                   </p>
                 </div>
               </div>
@@ -54,17 +49,6 @@ function truncateText(text, wordLimit = 20) {
     }
     return text
   }
-
-  function formatDate(dateString) {
-    const date = new Date(dateString) // Convert string to Date object
-  
-    const month = String(date.getMonth() + 1).padStart(2, '0') // Month (0-indexed)
-    const day = String(date.getDate()).padStart(2, '0') // Day
-    const year = date.getFullYear() // Year
-  
-    return `${month}.${day}.${year}`
-  }
-
 
 function handleCategoryClick (event, categoryId, categoryName = "departments") {
   event.preventDefault()

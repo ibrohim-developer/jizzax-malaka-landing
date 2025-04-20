@@ -52,11 +52,7 @@
                 border: 1px solid black;
               "
             />
-            <span
-              style="
-                margin-left: 12px;
-                font-weight: 700;
-              "
+            <span style="margin-left: 12px; font-weight: 700"
               >Jizzax viloyati <br />
               Pedagogik mahorat markazi</span
             >
@@ -134,7 +130,9 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="handleCategoryClick(event, 11)">Matbuot</a>
+                    <a class="nav-link" onclick="handleCategoryClick(event, 11)"
+                      >Matbuot</a
+                    >
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" onclick="handleCategoryClick(event, 12)"
@@ -154,30 +152,40 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a class="nav-link"  onclick="handleCategoryClick(event, 1, 'academic-departments')"
+                    <a
+                      class="nav-link"
+                      onclick="handleCategoryClick(event, 1, 'academic-departments')"
                       >Pedagogika va psixologiya ta'lim texnologiyalari
                       kafedrasi</a
                     >
                   </li>
-                  <li class="nav-item"> 
-                    <a class="nav-link"  onclick="handleCategoryClick(event, 2, 'academic-departments')"
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      onclick="handleCategoryClick(event, 2, 'academic-departments')"
                       >Maktabgacha, boshlang'ich va maxsus ta'lim metodikasi
                       kafedrasi</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link"  onclick="handleCategoryClick(event, 3, 'academic-departments')"
+                    <a
+                      class="nav-link"
+                      onclick="handleCategoryClick(event, 3, 'academic-departments')"
                       >Tillarni o'qitish metodikasi va ijtimoiy iqtisodiy fanlar
                       kafedrasi</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="handleCategoryClick(event, 4, 'academic-departments')"
+                    <a
+                      class="nav-link"
+                      onclick="handleCategoryClick(event, 4, 'academic-departments')"
                       >Aniq va tabiiy fanlar metodikasi kafedrasi</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="handleCategoryClick(event, 5, 'academic-departments')"
+                    <a
+                      class="nav-link"
+                      onclick="handleCategoryClick(event, 5, 'academic-departments')"
                       >Ijtimoiy-iqtisodiy fanlar kafedrasi</a
                     >
                   </li>
@@ -189,14 +197,10 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a href="#" class="nav-link"
-                      >Akademik faoliyatlar</a
-                    >
+                    <a href="#" class="nav-link">Akademik faoliyatlar</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link"
-                      >Pedagogik faoliyatlar</a
-                    >
+                    <a href="#" class="nav-link">Pedagogik faoliyatlar</a>
                   </li>
                 </ul>
               </li>
@@ -206,15 +210,12 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a href="#" class="nav-link"
+                    <a
+                      target="_blank"
+                      href="http://iqintellect.uz/index.php/iqtidorintellekt"
+                      class="nav-link"
                       >BADIIY ADABIYOTLAR</a
                     >
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">DARSLIKLAR</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">ANJUMANLAR</a>
                   </li>
                 </ul>
               </li>
@@ -224,7 +225,6 @@
       </div>
     </div>
     <!-- End Navbar Area Start -->
-
 
     <!-- Start Responsive Navbar Area -->
     <div
@@ -437,7 +437,7 @@
                   <div class="accordion-item">
                     <a
                       class="accordion-link"
-                      onclick="handleCategoryClick(event, 1)"
+                      onclick="handleCategoryClick(event, 1, 'academic-departments')"
                     >
                       Pedagogika va psixologiya ta'lim texnologiyalari kafedrasi
                     </a>
@@ -445,7 +445,7 @@
                   <div class="accordion-item">
                     <a
                       class="accordion-link"
-                      onclick="handleCategoryClick(event, 2)"
+                      onclick="handleCategoryClick(event, 2, 'academic-departments')"
                     >
                       Maktabgacha, boshlang'ich va maxsus ta'lim metodikasi
                       kafedrasi
@@ -454,7 +454,7 @@
                   <div class="accordion-item">
                     <a
                       class="accordion-link"
-                      onclick="handleCategoryClick(event, 3)"
+                      onclick="handleCategoryClick(event, 3, 'academic-departments')"
                     >
                       Tillarni o'qitish metodikasi va ijtimoiy iqtisodiy fanlar
                       kafedrasi
@@ -463,48 +463,16 @@
                   <div class="accordion-item">
                     <a
                       class="accordion-link"
-                      onclick="handleCategoryClick(event, 4)"
+                      onclick="handleCategoryClick(event, 4, 'academic-departments')"
                       >Aniq va tabiiy fanlar metodikasi kafedrasi</a
                     >
                   </div>
                   <div class="accordion-item">
                     <a
                       class="accordion-link"
-                      onclick="handleCategoryClick(event, 5)"
+                      onclick="handleCategoryClick(event, 5, 'academic-departments')"
                       >Ijtimoiy-iqtisodiy fanlar kafedrasi</a
                     >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseThree"
-              aria-expanded="false"
-              aria-controls="collapseThree"
-            >
-              Faoliyatlar
-            </button>
-            <div
-              id="collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#navbarAccordion"
-            >
-              <div class="accordion-body">
-                <div class="accordion" id="navbarAccordion30">
-                  <div class="accordion-item">
-                    <a href="#" class="accordion-link">
-                      Akademik faoliyatlar
-                    </a>
-                  </div>
-                  <div class="accordion-item">
-                    <a href="#" class="accordion-link">
-                      Pedagogik faoliyatlar
-                    </a>
                   </div>
                 </div>
               </div>
@@ -529,14 +497,12 @@
               <div class="accordion-body">
                 <div class="accordion" id="navbarAccordion31">
                   <div class="accordion-item">
-                    <a href="#" class="accordion-link">
-                      Darsliklar
-                    </a>
-                  </div>
-                  <div class="accordion-item">
-                    <a href="#" class="accordion-link">
-                      Anjumanlar
-                    </a>
+                    <a
+                      target="_blank"
+                      href="http://iqintellect.uz/index.php/iqtidorintellekt"
+                      class="nav-link"
+                      >BADIIY ADABIYOTLAR</a
+                    >
                   </div>
                 </div>
               </div>
@@ -593,7 +559,7 @@
     <!-- End Section Banner Area -->
 
     <!-- End Blog Area -->
-    <div class="blog-area pb-100" style="padding-top: 50px;">
+    <div class="blog-area pb-100" style="padding-top: 50px">
       <div class="container">
         <div
           class="section-title section-title-2"
@@ -603,7 +569,10 @@
           <div class="sub-title">
             <p>Yangiliklar</p>
           </div>
-          <h2>Markaz haqidagi <br /> barcha yangiliklar</h2>
+          <h2>
+            Markaz haqidagi <br />
+            barcha yangiliklar
+          </h2>
         </div>
         <div class="row">
           <div class="col-lg-8">
@@ -683,8 +652,8 @@
     </div>
     <!-- End Blog Area -->
 
-     <!-- Start Footer Area -->
-     <div class="footer-area">
+    <!-- Start Footer Area -->
+    <div class="footer-area">
       <div class="footer-widget-info ptb-100">
         <div class="container">
           <div class="row">
@@ -755,7 +724,7 @@
                 <h4>Manzilimiz</h4>
                 <ul>
                   <li style="padding-left: 0; color: #b9b9ba">
-                    Jizzax viloyati Jizzax shahri, Islom Karimov shoh ko`chasi            
+                    Jizzax viloyati Jizzax shahri, Islom Karimov shoh ko`chasi
                   </li>
                 </ul>
               </div>
@@ -771,8 +740,8 @@
     </div>
 
     <!-- Links of JS files -->
-    <script src="./javascipt/main.js"></script>
-    <script src="./javascipt/blogs.js"></script>
+    <script type="module" src="./javascipt/main.js"></script>
+    <script type="module" src="./javascipt/blogs.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>

@@ -474,7 +474,7 @@ const staff = [
   },
   {
     id: 42,
-    image: './assets/img/staff/user-image.jpg',
+    image: './assets/img/staff/category-10-19.jpg',
     name: "Abduqayumov Shohruh Jamolxon o'gli",
     position: "Informatika va AT fani metodisti",
     phone: '+998947297778',
@@ -493,20 +493,20 @@ function displayStaff (category) {
     ${item.description ? `<p>${item.description}</p>` : ''}
   `
     const style = item.description
-      ? 'display: flex; margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 20px;'
-      : 'display: flex;'
+      ? 'margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 20px;'
+      : ''
 
     staffContainer.innerHTML += `
             <li class="news-item" style="display: block; margin-bottom: 24px; border-radius: 16px; padding: 25px 30px; background-color: #fff; box-shadow: 0px 5px 12px 0px rgb(227, 226, 226);" data-aos="fade-up" data-aos-delay="100">
-              <div style="display: flex; ${style}">
-                <div class="image" style="width: unset; margin-right: 10px;">
+              <div class="row" style="${style}">
+                <div class="col-lg-6 col-md-4 col-sm-12" class="image" style="width: unset; margin-right: 10px;">
                     <img
                     src="${item.image}"
                     alt="image"
-                    style="height: 200px; width: 200px; object-fit: cover; border-radius: 16px; border: 1px solid #0000000f;"
+                    style="height: 200px; max-width: 200px; width: 100%; object-fit: cover; border-radius: 16px; border: 1px solid #0000000f;"
                     />
                 </div>
-                <div class="content">
+                <div class="content col-lg-6 col-md-7 col-sm-12">
                     <h2>${item.name}</h2>
                     <div style="display: flex; align-items: center">
                     <h6>Lavozimi:</h6>

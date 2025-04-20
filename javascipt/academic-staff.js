@@ -136,7 +136,7 @@ const academicStaff = [
   },
   {
     id: 14,
-    image: './assets/img/staff/user-image.jpg',
+    image: './assets/img/staff/academic-category-2-4.jpg',
     name: 'Xolmo‘minova Baxora',
     position: 'O‘qituvchi',
     phone: '+998994487292',
@@ -335,7 +335,7 @@ const academicStaff = [
   },
   {
     id: 32,
-    image: './assets/img/staff/user-image.jpg',
+    image: './assets/img/staff/academic-category-4-7.jpg',
     name: 'Munojat Oltibekovna MUSTAFOYEVA',
     description: "Jizzax viloyati pedagogik mahorat markazi “Aniq va tabiiy fanlar metodikasi” kafedrasi katta o‘qituvchisi. 2004-yil JDPI fizika-matematika fakulteti fizika astronomiya ta’lim yo‘nalishi bakalavr, 2015-yil SamDUning kondensatsi- yalangan muhitlar fizikasi va materialshunoslik mutaxassis- ligi bo‘yicha magistri.",
     position: 'Katta o‘qituvchi',

@@ -1,14 +1,9 @@
 const blogsSection = document.getElementById('blogs')
+import { data } from "../javascipt/news";
 
 async function getNews () {
-  try {
-    const result = await fetch('http://localhost:1337/api/blogs?populate=image')
-    const newsData = await result.json()
-    console.log(newsData.data)
-    mapNews(newsData.data)
-  } catch (e) {
-    console.error(e)
-  }
+    console.log(data)
+    mapNews(data)
 }
 getNews()
 
@@ -36,7 +31,7 @@ function mapNews(data) {
                   <div style="display: flex; align-items: center">
                     <i class="bx bxs-time" style="color: #2eca7f"></i>
                     <p style="margin-left: 5px; color: #2eca7f">
-                      ${formatDate(item.createdAt)}
+                      ${item.createdAt}
                     </p>
                   </div>
                 </div>
@@ -53,14 +48,4 @@ function mapNews(data) {
         return words.slice(0, wordLimit).join(' ') + '...'
       }
       return text
-    }
-  
-    function formatDate(dateString) {
-      const date = new Date(dateString) // Convert string to Date object
-    
-      const month = String(date.getMonth() + 1).padStart(2, '0') // Month (0-indexed)
-      const day = String(date.getDate()).padStart(2, '0') // Day
-      const year = date.getFullYear() // Year
-    
-      return `${month}.${day}.${year}`
     }
