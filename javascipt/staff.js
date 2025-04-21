@@ -499,11 +499,11 @@ function displayStaff (category) {
     staffContainer.innerHTML += `
             <li class="news-item" style="display: block; margin-bottom: 24px; border-radius: 16px; padding: 25px 30px; background-color: #fff; box-shadow: 0px 5px 12px 0px rgb(227, 226, 226);" data-aos="fade-up" data-aos-delay="100">
               <div class="row" style="${style}">
-                <div class="col-lg-6 col-md-4 col-sm-12" class="image" style="width: unset; margin-right: 10px;">
+                <div class="col-lg-6 col-md-4 col-sm-12 staff-image-container" style="width: unset; margin-right: 10px;">
                     <img
                     src="${item.image}"
                     alt="image"
-                    style="height: 200px; max-width: 200px; width: 100%; object-fit: cover; border-radius: 16px; border: 1px solid #0000000f;"
+                    class="staff-image"
                     />
                 </div>
                 <div class="content col-lg-6 col-md-7 col-sm-12">

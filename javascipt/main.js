@@ -1,16 +1,19 @@
-'use strict'
 const newsSection = document.getElementById('news')
-import { data } from "../javascipt/news.js"
+import { data } from '../javascipt/news.js'
 async function getNews () {
-    console.log(data)
-    mapNews(data)
+  console.log(data)
+  mapNews(data)
 }
 getNews()
 
-function mapNews(data) {
-  return data.forEach((item) => {
+function mapNews (data) {
+  return data.forEach(item => {
     newsSection.innerHTML += `
-        <div key="${item.id}" class="col-lg-4 col-sm-6 col-md-6" style="cursor: pointer" onclick="window.location.href='blog.html?id=${item.documentId}'">
+        <div key="${
+          item.id
+        }" class="col-lg-4 col-sm-6 col-md-6" style="cursor: pointer" onclick="window.location.href='blog.html?id=${
+      item.documentId
+    }'">
           <div
             class="activities-card style-2"
             data-aos="fade-up"
@@ -41,18 +44,18 @@ function mapNews(data) {
   })
 }
 
-
-function truncateText(text, wordLimit = 20) {
-    const words = text.split(' ')
-    if (words.length > wordLimit) {
-      return words.slice(0, wordLimit).join(' ') + '...'
-    }
-    return text
+function truncateText (text, wordLimit = 20) {
+  const words = text.split(' ')
+  if (words.length > wordLimit) {
+    return words.slice(0, wordLimit).join(' ') + '...'
   }
+  return text
+}
 
-function handleCategoryClick (event, categoryId, categoryName = "departments") {
+function handleCategoryClick (event, categoryId, categoryName = 'departments') {
   event.preventDefault()
 
   // Redirect to academics.html with the category ID
   window.location.href = `${categoryName}.html?category=${categoryId}`
 }
+window.handleCategoryClick = handleCategoryClick;

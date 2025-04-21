@@ -56,15 +56,15 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 :root {
-  --fontFamily: 'Lexend', sans-serif;
+  --fontFamily: "Lexend", sans-serif;
   --mainColor: #2eca7f;
-  --secounderyColor: #F2F8F1;
-  --paragraphColor: #7A7A7A;
-  --paragraphColorSecond: #B9B9BA;
+  --secounderyColor: #f2f8f1;
+  --paragraphColor: #7a7a7a;
+  --paragraphColorSecond: #b9b9ba;
   --whiteColor: #ffffff;
   --blackColor: #002147;
   --fontSize: 16px;
-  --transition: .5s;
+  --transition: 0.5s;
 }
 
 body {
@@ -74,11 +74,22 @@ body {
   font-family: var(--fontFamily);
 }
 
-.container-fluid{
+.container-fluid {
   max-width: 1560px;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
 }
 
@@ -157,7 +168,7 @@ p:last-child {
   padding-bottom: 25px;
 }
 
-.pr-line{
+.pr-line {
   height: 1px;
   max-width: 100%;
   background-color: #e2e3e4;
@@ -178,7 +189,7 @@ p:last-child {
   font-weight: 500;
 }
 
-.default-btn:hover{
+.default-btn:hover {
   color: var(--whiteColor);
   background-color: transparent;
   background-color: var(--blackColor);
@@ -203,7 +214,7 @@ a.white-under-btn {
   font-weight: 500;
 }
 
-.default-btn.black{
+.default-btn.black {
   background-color: var(--blackColor);
 }
 
@@ -220,7 +231,7 @@ a.white-under-btn {
 .section-title h2 {
   margin-bottom: 0;
   font-size: 48px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .section-title .sub-title {
@@ -230,11 +241,11 @@ a.white-under-btn {
   margin-bottom: 0px;
 }
 
-.section-title .sub-title p{
+.section-title .sub-title p {
   font-size: 20px;
-} 
+}
 
-.section-title-2 .sub-title p{
+.section-title-2 .sub-title p {
   font-size: 20px;
   text-transform: uppercase;
 }
@@ -258,7 +269,7 @@ a.white-under-btn {
 .section-title-3 h2 {
   margin-bottom: 0;
   font-size: 48px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .section-title-3.text-start {
@@ -270,7 +281,7 @@ a.white-under-btn {
 
 .section-title-3 .default-btn {
   position: absolute;
-  content: '';
+  content: "";
   font-weight: 500;
   top: 25%;
   right: 0;
@@ -285,7 +296,7 @@ a.white-under-btn {
   border-radius: 0;
   background-color: #f5f5f5 !important;
   -webkit-box-shadow: unset !important;
-          box-shadow: unset !important;
+  box-shadow: unset !important;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   border: none !important;
@@ -346,16 +357,18 @@ Top Navbar Area CSS
 =================================================*/
 .top-area {
   padding: 15px 0 0;
-  border-bottom: 1px solid #EEEEEE;
+  border-bottom: 1px solid #eeeeee;
 }
 
-.top-left-items ul, .top-right-items ul {
+.top-left-items ul,
+.top-right-items ul {
   list-style: none;
   padding: 0;
   margin-bottom: 0px;
 }
 
-.top-left-items ul li, .top-right-items ul li {
+.top-left-items ul li,
+.top-right-items ul li {
   display: inline-block;
   margin-right: 20px;
   margin-left: 30px;
@@ -365,13 +378,14 @@ Top Navbar Area CSS
   color: var(--paragraphColor);
 }
 
-.top-left-items ul li i, .top-right-items ul li i {
+.top-left-items ul li i,
+.top-right-items ul li i {
   color: var(--mainColor);
   font-size: 20px;
   position: absolute;
   top: 2px;
   left: -30px;
-  content: '';
+  content: "";
 }
 
 .top-left-items ul li a {
@@ -393,10 +407,10 @@ Top Navbar Area CSS
   position: absolute;
   top: -15px;
   right: -20px;
-  content: '';
+  content: "";
   height: 55px;
   width: 1px;
-  background: #EEEEEE;
+  background: #eeeeee;
 }
 
 .top-right-items ul li a {
@@ -408,57 +422,57 @@ Top Navbar Area CSS
   cursor: pointer;
 }
 
-
 /*================================================
 Banner Area CSS
 =================================================*/
-.big-bg-1{
+.big-bg-1 {
   background-image: url(../img/banner/Image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height:750px;
+  height: 750px;
   position: relative;
 }
-.big-bg-1::before {    
-	position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-    top: 0;
-    right: 0;
-    background:#120f2d;
-	opacity:0.4;
+.big-bg-1::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background: #120f2d;
+  opacity: 0.4;
 }
 .white-shape {
   position: relative;
   height: 240px;
 }
 
-
 .banner-content .content {
-	padding-top: 200px;
-	/* content: ''; */
-	/* top: 55px; */
-	/* left: 0; */
-	/* padding: 0px 60px; */
-	/* z-index: 1; */
+  padding-top: 200px;
+  /* content: ''; */
+  /* top: 55px; */
+  /* left: 0; */
+  /* padding: 0px 60px; */
+  /* z-index: 1; */
 }
 
 .banner-content .content h1 {
-	font-size: 58px;
-	line-height: 72px;
-	font-family: 'Lexend', sans-serif;
-	font-weight: 700;
-	color: var(--whiteColor);
-	margin-bottom: 20px;
+  font-size: 58px;
+  line-height: 72px;
+  font-family: "Lexend", sans-serif;
+  font-weight: 700;
+  color: var(--whiteColor);
+  margin-bottom: 20px;
 }
 .banner-content .content p {
-	color: var(--whiteColor);
-	width: 80%;
-	margin-bottom: 40px;
+  color: var(--whiteColor);
+  width: 80%;
+  margin-bottom: 40px;
 }
-.banner-content .content a{color: var(--whiteColor);}
+.banner-content .content a {
+  color: var(--whiteColor);
+}
 /*================================================
 Banner Area 2 CSS
 =================================================*/
@@ -483,15 +497,15 @@ Banner Area 2 CSS
   z-index: -1;
 }
 
-.big-bg-2::before {    
-	position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-    top: 0;
-    right: 0;
-    background:#120f2d;
-	opacity:0.4;
+.big-bg-2::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background: #120f2d;
+  opacity: 0.4;
 }
 .nav-style-2.navbar-area {
   top: 0px;
@@ -500,7 +514,7 @@ Banner Area 2 CSS
   border-bottom: 1px solid #333;
 }
 
-.nav-style-2.navbar-area.is-sticky{
+.nav-style-2.navbar-area.is-sticky {
   position: fixed !important;
   border-bottom: none;
 }
@@ -509,15 +523,15 @@ Banner Area 2 CSS
   color: var(--whiteColor);
 }
 
-.nav-style-2 .clgun-nav .nav-search .search-button{
+.nav-style-2 .clgun-nav .nav-search .search-button {
   color: var(--whiteColor);
 }
 
-.nav-style-2.navbar-area.is-sticky .navbar-nav .nav-item a{
+.nav-style-2.navbar-area.is-sticky .navbar-nav .nav-item a {
   color: var(--blackColor);
 }
 
-.nav-style-2.navbar-area.is-sticky .clgun-nav .nav-search .search-button{
+.nav-style-2.navbar-area.is-sticky .clgun-nav .nav-search .search-button {
   color: var(--blackColor);
 }
 
@@ -528,31 +542,31 @@ Banner Area 2 CSS
   position: relative;
 }
 
-.banner-content-2 .content span{
+.banner-content-2 .content span {
   color: #fff;
   font-size: 28px;
 }
 
-.banner-content-2 .content h1{
+.banner-content-2 .content h1 {
   color: var(--whiteColor);
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 90px;
   line-height: 90px;
 }
 
 .banner-content-2 .content p {
-	color: #fff;
-	font-size: 20px;
-	margin-bottom: 40px;
-	width: 70%;
-	margin: auto;
-	margin-bottom: 30px;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 40px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .banner-content-2 .content .vertical-lr {
   writing-mode: vertical-lr;
   position: absolute;
-  content: '';
+  content: "";
   bottom: -35%;
   left: -12%;
   height: 400px;
@@ -560,7 +574,7 @@ Banner Area 2 CSS
 
 .banner-content-2 .content .vertical-lr p {
   display: flex;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .banner-content-2 .content .vertical-lr p span {
@@ -590,7 +604,7 @@ Banner Area 2 CSS
   height: 55px;
   width: 75px;
 }
-.banner-content-2 .content .scroll-down a:hover{
+.banner-content-2 .content .scroll-down a:hover {
   background-color: var(--mainColor);
 }
 
@@ -598,56 +612,72 @@ Banner Area 2 CSS
 Slider Banner Area CSS
 =================================================*/
 
-.slider-bg-1{
+.slider-bg-1 {
   background-image: url(../img/banner/bg-Image-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 350px;
-  position:relative;
+  position: relative;
   padding-bottom: 100px;
 }
-.slider-bg-1::before {    
-	position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-    top: 0;
-    right: 0;
-    background:#120f2d;
-	opacity:0.6;
+.slider-bg-1::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background: #120f2d;
+  opacity: 0.6;
 }
 /* Zoom Background Animation */
 @-webkit-keyframes zoom-a {
-	0% { background-size: 100% auto; }
-	100% { background-size: 120% auto; }
+  0% {
+    background-size: 100% auto;
+  }
+  100% {
+    background-size: 120% auto;
+  }
 }
 @-moz-keyframes zoom-a {
-	0% { background-size: 100% auto; }
-	100% { background-size: 120% auto; }
+  0% {
+    background-size: 100% auto;
+  }
+  100% {
+    background-size: 120% auto;
+  }
 }
 @-o-keyframes zoom-a {
-	0% { background-size: 100% auto; }
-	100% { background-size: 120% auto; }
+  0% {
+    background-size: 100% auto;
+  }
+  100% {
+    background-size: 120% auto;
+  }
 }
 @keyframes zoom-a {
-	0% { background-size: 100% auto; }
-	100% { background-size: 120% auto; }
+  0% {
+    background-size: 100% auto;
+  }
+  100% {
+    background-size: 120% auto;
+  }
 }
 .zoom-x {
   -webkit-animation: zoom-a 10s linear infinite alternate; /* Safari 4+ */
-  -moz-animation:    zoom-a 10s linear infinite alternate; /* Fx 5+ */
-  -o-animation:      zoom-a 10s linear infinite alternate; /* Opera 12+ */
-  animation:         zoom-a 10s linear infinite alternate; /* IE 10+, Fx 29+ */
+  -moz-animation: zoom-a 10s linear infinite alternate; /* Fx 5+ */
+  -o-animation: zoom-a 10s linear infinite alternate; /* Opera 12+ */
+  animation: zoom-a 10s linear infinite alternate; /* IE 10+, Fx 29+ */
 }
 
-.slider-courser{
+.slider-courser {
   position: relative;
 }
 
 .slider-courser .owl-nav {
   position: absolute;
-  content: '';
+  content: "";
   bottom: 28%;
   right: 5%;
   opacity: 0;
@@ -659,7 +689,9 @@ Slider Banner Area CSS
   opacity: 1;
 }
 
-.slider-courser .owl-theme .owl-nav [class*=owl-], .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+.slider-courser .owl-theme .owl-nav [class*="owl-"],
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
   color: var(--blackColor);
   border: none;
   background-color: var(--whiteColor);
@@ -672,7 +704,7 @@ Slider Banner Area CSS
   transition: var(--transition);
 }
 
-.slider-courser.owl-theme .owl-nav [class*=owl-]:hover{
+.slider-courser.owl-theme .owl-nav [class*="owl-"]:hover {
   color: var(--whiteColor);
   background-color: var(--mainColor);
 }
@@ -681,16 +713,16 @@ Slider Banner Area CSS
   opacity: inherit;
 }
 
-.slider-content .content{
+.slider-content .content {
   position: relative;
 }
-.slider-content .content .text h1{
-  font-family: 'Lexend', sans-serif;
+.slider-content .content .text h1 {
+  font-family: "Lexend", sans-serif;
   color: var(--whiteColor);
   font-size: 64px;
 }
 
-.slider-courser .owl-item.active .slider-content .content .text h1{
+.slider-courser .owl-item.active .slider-content .content .text h1 {
   animation: fadeInUp ease 1s;
 }
 
@@ -710,7 +742,7 @@ Slider Banner Area CSS
 
 .slider-content .content p::before {
   position: absolute;
-  content: '';
+  content: "";
   background-color: var(--whiteColor);
   height: 12px;
   width: 12px;
@@ -723,17 +755,22 @@ Slider Banner Area CSS
   padding-right: 30px;
 }
 
-.slider-content .content .short-info h3{
-  font-family: 'Lexend', sans-serif;
+.slider-content .content .short-info h3 {
+  font-family: "Lexend", sans-serif;
   color: var(--whiteColor);
   font-size: 30px;
   margin-bottom: 30px;
 }
 
-.slider-courser .owl-item.active .slider-content .content .short-info h3{
+.slider-courser .owl-item.active .slider-content .content .short-info h3 {
   animation: fadeInUp ease 2s;
 }
-.slider-courser .owl-item.active .slider-content .content .short-info .default-btn{
+.slider-courser
+  .owl-item.active
+  .slider-content
+  .content
+  .short-info
+  .default-btn {
   animation: fadeInUp ease 3s;
 }
 
@@ -741,11 +778,11 @@ Slider Banner Area CSS
 Undergraduate Area CSS
 =================================================*/
 
-.undergraduate-area{
+.undergraduate-area {
   padding-top: 25px;
 }
 
-.undergraduate-area .item{
+.undergraduate-area .item {
   background-image: url(../img/all-img/shape-1.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -757,10 +794,10 @@ Undergraduate Area CSS
 .undergraduate-area .item .content h3 {
   font-size: 24px;
   color: var(--whiteColor);
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
-.undergraduate-area .item .content-2{
+.undergraduate-area .item .content-2 {
   text-align: right;
 }
 
@@ -769,11 +806,11 @@ Undergraduate Area CSS
   margin-left: 20px;
 }
 
-.undergraduate-area .blk{
+.undergraduate-area .blk {
   background-color: var(--blackColor) !important;
 }
 
-.undergraduate-area .blk .content-2 .default-btn{
+.undergraduate-area .blk .content-2 .default-btn {
   background-color: var(--mainColor);
 }
 
@@ -781,7 +818,7 @@ Undergraduate Area CSS
 Academics Area CSS
 =================================================*/
 
-.academics-area.bg-color-1{
+.academics-area.bg-color-1 {
   background-color: var(--secounderyColor);
 }
 
@@ -789,16 +826,16 @@ Academics Area CSS
   border: 1px solid var(--whiteColor);
 }
 
-.academics-item.active{
+.academics-item.active {
   background-color: var(--whiteColor);
 }
 
-.bg-color-1 .academics-item:hover{
+.bg-color-1 .academics-item:hover {
   background-color: var(--whiteColor);
 }
 
 .academics-item {
-  padding: 45px 40px;;
+  padding: 45px 40px;
   text-align: center;
   border: 1px solid #eeeeee;
   transition: var(--transition);
@@ -811,7 +848,7 @@ Academics Area CSS
 .academics-item h4 {
   margin-bottom: 20px;
   font-size: 22px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .academics-item p {
@@ -826,7 +863,7 @@ Academics Area CSS
 
 .academics-item a i {
   position: absolute;
-  content: '';
+  content: "";
   top: 0px;
   right: -30px;
   font-size: 25px;
@@ -835,7 +872,7 @@ Academics Area CSS
 
 .academics-item a:hover i {
   position: absolute;
-  content: '';
+  content: "";
   top: 0px;
   right: -40px;
   font-size: 25px;
@@ -845,22 +882,22 @@ Academics Area CSS
 About Us Area CSS
 =================================================*/
 
-.about-us-area.bg-color-1{
+.about-us-area.bg-color-1 {
   background-color: var(--secounderyColor);
 }
 
-.about-us-area .text-content .sub-title{
+.about-us-area .text-content .sub-title {
   display: flex;
-  margin-bottom:0px;
+  margin-bottom: 0px;
   align-items: center;
 }
 
-.about-us-area .text-content .sub-title p{
+.about-us-area .text-content .sub-title p {
   margin-bottom: 0px;
   font-size: 20px;
 }
 
-.about-us-area .text-content .sub-title i{
+.about-us-area .text-content .sub-title i {
   color: var(--mainColor);
   font-size: 30px;
   margin-right: 8px;
@@ -869,14 +906,14 @@ About Us Area CSS
 .about-us-area .text-content h2 {
   font-size: 48px;
   margin-bottom: 20px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .about-us-area .text-content p {
   margin-bottom: 30px;
 }
 
-.about-us-area .content{
+.about-us-area .content {
   padding-left: 35px;
 }
 
@@ -894,7 +931,7 @@ About Us Area CSS
 .notice-content h4 {
   font-size: 24px;
   margin-bottom: 20px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   color: var(--whiteColor);
   line-height: 34px;
 }
@@ -906,19 +943,19 @@ About Us Area CSS
 
 .notice-content .author-info h5 {
   color: var(--whiteColor);
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 16px;
   margin-bottom: 8px;
 }
 
 .notice-content .author-info span {
   color: var(--whiteColor);
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   margin-bottom: 8px;
   display: block;
 }
 
-.notice-content .author-info p{
+.notice-content .author-info p {
   margin-bottom: 0;
   color: var(--paragraphColorSecond);
 }
@@ -930,13 +967,13 @@ About Us Area 2 CSS
 .about-us-area-2 .section-title {
   max-width: 1290px;
 }
-.about-us-area-2 .section-title h2{
+.about-us-area-2 .section-title h2 {
   margin-bottom: 30px;
 }
 .about-us-area-2 .section-title p {
-	font-size: 20px;
-	width: 70%;
-	margin: auto;
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
 }
 
 .about-us-area-2 .content-items {
@@ -952,15 +989,15 @@ About Us Area 2 CSS
   border-radius: 5px;
 }
 
-.about-us-area-2 .content-items .image.ct-bg-1{
+.about-us-area-2 .content-items .image.ct-bg-1 {
   background-image: url(../img/all-img/about-image-2.png);
 }
 
-.about-us-area-2 .content-items .image.ct-bg-2{
+.about-us-area-2 .content-items .image.ct-bg-2 {
   background-image: url(../img/all-img/about-image-3.png);
 }
 
-.about-us-area-2 .content-items .image.ct-bg-3{
+.about-us-area-2 .content-items .image.ct-bg-3 {
   background-image: url(../img/all-img/about-image-4.png);
 }
 
@@ -969,7 +1006,7 @@ About Us Area 2 CSS
   padding: 50px 50px;
   background-color: #f0f7ff;
   position: absolute;
-  content: '';
+  content: "";
   top: 10%;
   right: 0%;
   border-radius: 5px;
@@ -983,19 +1020,19 @@ About Us Area 2 CSS
   display: block;
 }
 
-.about-us-area-2 .content-items .content h2{
-  font-family: 'Lexend', sans-serif;
+.about-us-area-2 .content-items .content h2 {
+  font-family: "Lexend", sans-serif;
   font-size: 48px;
 }
 
-.about-us-area-2 .content-items .content p{
+.about-us-area-2 .content-items .content p {
   margin-bottom: 30px;
 }
 
-.global-alumni-events{
+.global-alumni-events {
   background-color: var(--secounderyColor);
 }
-.global-alumni-events .global-content-items{
+.global-alumni-events .global-content-items {
   position: relative;
 }
 .global-alumni-events .global-content-items .content {
@@ -1008,15 +1045,15 @@ About Us Area 2 CSS
   position: absolute;
   top: 10%;
 }
-.global-alumni-events .global-content-items .content h2{
-  font-family: 'Lexend', sans-serif;
+.global-alumni-events .global-content-items .content h2 {
+  font-family: "Lexend", sans-serif;
   font-size: 48px;
   margin-bottom: 30px;
 }
-.global-alumni-events .global-content-items .content p{
+.global-alumni-events .global-content-items .content p {
   margin-bottom: 30px;
 }
-.global-alumni-events .image{
+.global-alumni-events .image {
   background-image: url(../img/all-img/about-image-4.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1027,7 +1064,7 @@ About Us Area 2 CSS
   margin-left: auto;
 }
 
-.about-content-courser.owl-theme .owl-nav [class*=owl-] {
+.about-content-courser.owl-theme .owl-nav [class*="owl-"] {
   margin: 0;
   position: absolute;
   width: 65px;
@@ -1044,11 +1081,11 @@ About Us Area 2 CSS
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-.about-content-courser.owl-theme .owl-nav [class*=owl-]:hover {
+.about-content-courser.owl-theme .owl-nav [class*="owl-"]:hover {
   background-color: var(--mainColor);
   color: var(--whiteColor);
 }
-.about-content-courser.owl-theme .owl-nav [class*=owl-].owl-next {
+.about-content-courser.owl-theme .owl-nav [class*="owl-"].owl-next {
   left: 32%;
 }
 .about-content-courser.owl-theme .owl-nav {
@@ -1065,13 +1102,13 @@ About Us Area 2 CSS
   background-color: #f0f7ff;
   color: #002147;
 }
-.about-content-courser .owl-dots .owl-dot{
+.about-content-courser .owl-dots .owl-dot {
   margin-right: 10px;
 }
-.about-content-courser .owl-dots .owl-dot:last-child{
+.about-content-courser .owl-dots .owl-dot:last-child {
   margin-right: 0px;
 }
-.about-content-courser .owl-dots .owl-dot button:hover{
+.about-content-courser .owl-dots .owl-dot button:hover {
   background-color: var(--mainColor);
   color: var(--whiteColor);
 }
@@ -1079,8 +1116,8 @@ About Us Area 2 CSS
   outline: none;
 }
 .about-content-courser .owl-dots .owl-dot.active button {
-  background-color:#002147 ;
-  color:  #f0f7ff;
+  background-color: #002147;
+  color: #f0f7ff;
 }
 
 /*================================================
@@ -1090,29 +1127,29 @@ About Us Area 3 CSS
 .about-alumni .content {
   padding: 0 50px;
 }
-.about-alumni .content .sub-title{
+.about-alumni .content .sub-title {
   display: flex;
   margin-bottom: 30px;
   align-items: center;
 }
-.about-alumni .content .sub-title i{
+.about-alumni .content .sub-title i {
   color: var(--mainColor);
   font-size: 30px;
   margin-right: 8px;
 }
-.about-alumni .content .sub-title p{
+.about-alumni .content .sub-title p {
   margin-bottom: 0px;
   font-size: 20px;
 }
-.about-alumni .content h2{
+.about-alumni .content h2 {
   font-size: 48px;
   margin-bottom: 30px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
-.about-alumni .content p{
+.about-alumni .content p {
   margin-bottom: 30px;
 }
-.about-alumni .image{
+.about-alumni .image {
   background-image: url(../img/all-img/about-image-3.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1146,7 +1183,7 @@ Courses CSS
   margin-top: 10px;
   font-size: 22px;
   line-height: 32px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1192,7 +1229,7 @@ Courses CSS
   align-items: center;
 }
 
-.teacher-info .image img{
+.teacher-info .image img {
   border-radius: 100%;
 }
 
@@ -1203,22 +1240,22 @@ Courses CSS
   font-weight: 500;
   color: var(--blackColor);
 }
-.teacher-info .price p{
+.teacher-info .price p {
   font-weight: 500;
   color: var(--mainColor);
 }
 
-.courses-section .course-item{
+.courses-section .course-item {
   margin-bottom: 30px;
 }
 
-.grid-sorting{
+.grid-sorting {
   margin-bottom: 30px;
 }
-.grid-sorting .title p{
+.grid-sorting .title p {
   font-size: 16px;
   font-weight: 700;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   color: var(--blackColor);
 }
 .grid-sorting .select-box {
@@ -1234,10 +1271,11 @@ Courses CSS
   position: absolute;
   top: 20px;
   left: 90px;
-  content: '';
+  content: "";
 }
 
-.courses-area .owl-theme .owl-dots .owl-dot.active span, .courses-area .owl-theme .owl-dots .owl-dot:hover span {
+.courses-area .owl-theme .owl-dots .owl-dot.active span,
+.courses-area .owl-theme .owl-dots .owl-dot:hover span {
   background: var(--blackColor);
 }
 .courses-area .owl-theme .owl-dots .owl-dot span {
@@ -1253,15 +1291,15 @@ Courses Details CSS
   padding-bottom: 40px;
   border-bottom: 1px solid #dddd;
 }
-.courses-details .header-title span{
+.courses-details .header-title span {
   font-size: 16px;
   color: var(--paragraphColor);
   margin-bottom: 20px;
   display: block;
 }
-.courses-details .header-title h2{
+.courses-details .header-title h2 {
   font-size: 48px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-bottom: 30px;
 }
 .courses-details .header-title ul {
@@ -1269,14 +1307,14 @@ Courses Details CSS
   padding: 0;
   margin-bottom: 40px;
 }
-.courses-details .header-title ul li{
+.courses-details .header-title ul li {
   display: inline-block;
   padding-left: 65px;
   position: relative;
 }
 .courses-details .header-title ul li::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 35px;
   right: -30px;
   top: 0px;
@@ -1286,7 +1324,7 @@ Courses Details CSS
 .courses-details .header-title ul li:last-child:after {
   display: none;
 }
-.courses-details .header-title ul li a{
+.courses-details .header-title ul li a {
   color: var(--blackColor);
   font-weight: 500;
 }
@@ -1301,7 +1339,7 @@ Courses Details CSS
 }
 .courses-details .enrolls-count .ikon {
   position: absolute;
-  content: '';
+  content: "";
   top: 3px;
   left: 0;
 }
@@ -1312,18 +1350,18 @@ Courses Details CSS
 .courses-details .content .content-pra {
   margin-bottom: 45px;
 }
-.courses-details .content .content-pra .title{
+.courses-details .content .content-pra .title {
   position: relative;
   margin-bottom: 45px;
 }
-.courses-details .content .content-pra .title h3{
+.courses-details .content .content-pra .title h3 {
   font-size: 22px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
-.courses-details .content .content-pra .title::after{
+.courses-details .content .content-pra .title::after {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -15px;
   left: 0;
   width: 60px;
@@ -1333,21 +1371,21 @@ Courses Details CSS
 .courses-details .content .content-pra .tag span {
   margin-right: 8px;
   font-weight: 700;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
-.courses-details .content .content-pra .tag ul{
+.courses-details .content .content-pra .tag ul {
   padding: 0;
   list-style: none;
   margin: 0;
   display: inline;
 }
-.courses-details .content .content-pra .tag ul li{
+.courses-details .content .content-pra .tag ul li {
   display: inline-block;
 }
-.courses-details .content .content-pra .tag ul li a{
+.courses-details .content .content-pra .tag ul li a {
   color: var(--paragraphColor);
 }
-.courses-details .content .content-pra .lists{
+.courses-details .content .content-pra .lists {
   padding: 0;
   list-style: none;
   margin: 0;
@@ -1357,7 +1395,7 @@ Courses Details CSS
   display: flex;
   align-items: center;
 }
-.courses-details .content .content-pra .lists li:last-child{
+.courses-details .content .content-pra .lists li:last-child {
   margin-bottom: 0px;
 }
 .courses-details .content .content-pra .lists li .icon {
@@ -1366,9 +1404,9 @@ Courses Details CSS
   position: relative;
   margin-right: 20px;
 }
-.courses-details .content .content-pra .lists li .icon::after{
+.courses-details .content .content-pra .lists li .icon::after {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: -5px;
   height: 30px;
@@ -1389,14 +1427,14 @@ Courses Details CSS
   margin-bottom: 45px;
 }
 
-.instructor-card .title h3{
+.instructor-card .title h3 {
   font-size: 22px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .instructor-card .title::after {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -15px;
   left: 0;
   width: 60px;
@@ -1408,7 +1446,7 @@ Courses Details CSS
   padding: 0;
   border: none;
 }
-.instructor-card .content h3{
+.instructor-card .content h3 {
   font-size: 16px;
   margin-bottom: 20px;
 }
@@ -1420,15 +1458,15 @@ Courses Details CSS
 .instructor-card .content .review .left {
   margin-right: 10px;
 }
-.instructor-card .content .review .left ul{
+.instructor-card .content .review .left ul {
   padding: 0;
   list-style: none;
   margin: 0;
 }
-.instructor-card .content .review .left ul li{
+.instructor-card .content .review .left ul li {
   display: inline-block;
   margin-right: 5px;
-  color: #DDDDDD;
+  color: #dddddd;
 }
 .instructor-card .content ul {
   list-style: none;
@@ -1452,27 +1490,27 @@ Courses Details CSS
   margin-bottom: 0;
   color: var(--paragraphColor);
 }
-.instructor-card .content a{
+.instructor-card .content a {
   color: var(--mainColor);
   font-weight: 600;
 }
-.course-widget-area{
+.course-widget-area {
   box-shadow: 0px 7px 60px rgba(22, 23, 26, 0.07);
   margin-left: 20px;
 }
-.course-widget-area .image{
+.course-widget-area .image {
   position: relative;
 }
-.course-widget-area .image .play-btn{
+.course-widget-area .image .play-btn {
   bottom: 0;
   position: absolute;
-  content: '';
+  content: "";
   top: 50%;
   left: 0;
   text-align: center;
   right: 0;
 }
-.course-widget-area .image .play-btn a{
+.course-widget-area .image .play-btn a {
   height: 50px;
   width: 50px;
   display: inline-block;
@@ -1484,31 +1522,31 @@ Courses Details CSS
   border-radius: 100%;
   font-size: 40px;
 }
-.course-widget-area .content{
+.course-widget-area .content {
   padding: 30px;
 }
-.course-widget-area .content .pricing h4{
+.course-widget-area .content .pricing h4 {
   font-size: 30px;
   margin-bottom: 30px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
-.course-widget-area .content ul{
+.course-widget-area .content ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.course-widget-area .content ul li{
+.course-widget-area .content ul li {
   margin-bottom: 20px;
   border-bottom: 1px solid #ddd;
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
 }
-.course-widget-area .content ul li:last-child{
+.course-widget-area .content ul li:last-child {
   border: none;
   padding-bottom: 0px;
 }
-.course-widget-area .content ul li span{
+.course-widget-area .content ul li span {
   font-weight: 500;
 }
 .course-widget-area .content .enroll-btn {
@@ -1542,7 +1580,7 @@ Courses Details CSS
 /*================================================
 Academics Section Area CSS
 =================================================*/
-.academics-section .academics-left .ac-category{
+.academics-section .academics-left .ac-category {
   margin-bottom: 50px;
 }
 .academics-section .academics-left .ac-category ul {
@@ -1550,64 +1588,64 @@ Academics Section Area CSS
   list-style: none;
   margin: 0;
 }
-.academics-section .academics-left .ac-category ul li{
+.academics-section .academics-left .ac-category ul li {
   margin-bottom: 20px;
 }
-.academics-section .academics-left .ac-category ul li:last-child{
+.academics-section .academics-left .ac-category ul li:last-child {
   margin-bottom: 0px;
 }
-.academics-section .academics-left .ac-category ul li a{
+.academics-section .academics-left .ac-category ul li a {
   padding: 20px;
   display: block;
   background-color: var(--secounderyColor);
   color: var(--blackColor);
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 18px;
   font-weight: 700;
   transition: var(--transition);
 }
-.academics-section .academics-left .ac-category ul li a:hover{
+.academics-section .academics-left .ac-category ul li a:hover {
   background-color: var(--blackColor);
   color: var(--whiteColor);
 }
-.academics-section .academics-left .ac-category ul li .active{
+.academics-section .academics-left .ac-category ul li .active {
   background-color: var(--blackColor);
   color: var(--whiteColor);
   box-shadow: 0px 3px 13px 0px #002147 !important;
 }
-.academics-section .academics-left .ac-contact span{
+.academics-section .academics-left .ac-contact span {
   color: var(--paragraphColor);
   margin-bottom: 20px;
   display: block;
   font-weight: 600;
   font-size: 18px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
-.academics-section .academics-left .ac-contact a{
+.academics-section .academics-left .ac-contact a {
   background-color: var(--mainColor);
   color: var(--whiteColor);
   display: block;
   padding: 20px;
   margin-bottom: 20px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   text-align: center;
   font-weight: 600;
   font-size: 18px;
 }
-.academics-section .academics-left .ac-contact a:last-child{
+.academics-section .academics-left .ac-contact a:last-child {
   margin-bottom: 0px;
 }
-.academics-section .academics-left .ac-contact .darkbtn{
+.academics-section .academics-left .ac-contact .darkbtn {
   background-color: var(--blackColor);
   color: var(--whiteColor);
 }
 .ac-overview {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 .academics-section .ac-overview .pera-title h2 {
   font-size: 48px;
   font-weight: 600;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   display: flex;
   align-items: center;
   margin-bottom: 50px;
@@ -1617,10 +1655,10 @@ Academics Section Area CSS
   font-weight: 900;
   margin-right: 30px;
 }
-.academics-section .ac-overview .pera-dec p{
+.academics-section .ac-overview .pera-dec p {
   margin-bottom: 30px;
 }
-.academics-section .ac-overview .pera-dec p:last-child{
+.academics-section .ac-overview .pera-dec p:last-child {
   margin-bottom: 0px;
 }
 .academics-section .ac-overview .gallery {
@@ -1637,14 +1675,14 @@ Academics Section Area CSS
   position: absolute;
   bottom: -120px;
   right: 0;
-  content: '';
+  content: "";
 }
-.academics-section .ac-overview .pera-dec h3{
-  font-family: 'Lexend', sans-serif;
+.academics-section .ac-overview .pera-dec h3 {
+  font-family: "Lexend", sans-serif;
   margin-bottom: 30px;
   font-size: 30px;
 }
-.academics-section .ac-overview .pera-dec .catagorys{
+.academics-section .ac-overview .pera-dec .catagorys {
   margin-bottom: 50px;
 }
 .academics-section .ac-overview .pera-dec .catagorys .pra-catagorys a {
@@ -1654,10 +1692,10 @@ Academics Section Area CSS
   text-align: center;
   background-color: var(--secounderyColor);
   font-weight: 700;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
-.academics-section .ac-overview .pera-dec .graduate-area{
+.academics-section .ac-overview .pera-dec .graduate-area {
   background-image: url(../img/all-img/graduate-area.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1667,38 +1705,49 @@ Academics Section Area CSS
   position: relative;
 }
 
-.academics-section .ac-overview .pera-dec .graduate-area .info-box{
+.academics-section .ac-overview .pera-dec .graduate-area .info-box {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -240px;
   left: 0;
   right: 0;
   max-width: 700px;
   background-color: var(--whiteColor);
-  padding: 70px 60px;;
+  padding: 70px 60px;
   margin: auto;
   text-align: center;
 }
 
 .academics-section .ac-overview .pera-dec .graduate-area .info-box h3 {
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-bottom: 50px;
   font-size: 30px;
   font-weight: 800;
 }
 
-.academics-section .ac-overview .pera-dec h4{
-  font-family: 'Lexend', sans-serif;
+.academics-section .ac-overview .pera-dec h4 {
+  font-family: "Lexend", sans-serif;
   font-size: 20px;
   font-weight: 800;
 }
 
-.academics-section .ac-overview .pera-dec .graduate-area .info-box .single-info {
+.academics-section
+  .ac-overview
+  .pera-dec
+  .graduate-area
+  .info-box
+  .single-info {
   text-align: start;
   padding-left: 30px;
 }
 
-.academics-section .ac-overview .pera-dec .graduate-area .info-box .single-info a {
+.academics-section
+  .ac-overview
+  .pera-dec
+  .graduate-area
+  .info-box
+  .single-info
+  a {
   padding: 8px 8px;
   text-align: start;
   background-color: var(--secounderyColor);
@@ -1706,7 +1755,7 @@ Academics Section Area CSS
   display: inline-block;
 }
 
-.graduate-events{
+.graduate-events {
   position: relative;
   margin-top: 200px;
 }
@@ -1720,62 +1769,62 @@ Academics Section Area CSS
   border-radius: 5px;
   background-color: var(--secounderyColor);
 }
-.graduate-events .content-items .content h2{
+.graduate-events .content-items .content h2 {
   font-size: 30px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
-.graduate-events .content-items .content a{
+.graduate-events .content-items .content a {
   color: var(--mainColor);
   font-weight: 600;
 }
-.graduate-events .content-items .image{
+.graduate-events .content-items .image {
   position: absolute;
-  content: '';
+  content: "";
   top: 15%;
   right: 0;
 }
 .problem-sector .problem-list {
   margin-bottom: 50px;
 }
-.problem-sector .problem-list:last-child{
+.problem-sector .problem-list:last-child {
   margin-bottom: 0px;
 }
-.problem-sector .problem-list .title h3{
+.problem-sector .problem-list .title h3 {
   padding: 30px 35px;
   background-color: var(--secounderyColor);
 }
 .problem-sector .problem-list .problem-items {
   padding-left: 35px;
 }
-.problem-sector .problem-list .problem-items ul{
+.problem-sector .problem-list .problem-items ul {
   padding: 0;
   list-style: none;
   margin-bottom: 0;
 }
-.problem-sector .problem-list .problem-items ul li{
+.problem-sector .problem-list .problem-items ul li {
   margin-bottom: 20px;
 }
-.problem-sector .problem-list .problem-items ul li:last-child{
+.problem-sector .problem-list .problem-items ul li:last-child {
   margin-bottom: 0px;
 }
-.problem-sector .problem-list .problem-items ul li a{
+.problem-sector .problem-list .problem-items ul li a {
   font-size: 16px;
   font-weight: 600;
   color: var(--paragraphColor);
   transition: var(--transition);
 }
 
-.problem-sector .problem-list .problem-items ul li a:hover{
+.problem-sector .problem-list .problem-items ul li a:hover {
   color: var(--mainColor);
   text-decoration: underline;
 }
-.faculty-model .col-lg-6 .faculty-card{
+.faculty-model .col-lg-6 .faculty-card {
   margin-bottom: 30px;
 }
-.faculty-model .col-lg-6:last-child .faculty-card{
+.faculty-model .col-lg-6:last-child .faculty-card {
   margin-bottom: 0px;
 }
-.faculty-model .faculty-card .image{
+.faculty-model .faculty-card .image {
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -1785,9 +1834,9 @@ Academics Section Area CSS
   top: 300px;
   position: absolute;
   padding: 35px 30px 30px;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
   background-color: var(--mainColor);
   opacity: 0;
 }
@@ -1803,49 +1852,47 @@ Academics Section Area CSS
   visibility: hidden;
   position: relative;
   top: 50px;
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .faculty-model .faculty-card .image .info p {
   top: 0;
   opacity: 1;
   visibility: visible;
-  -webkit-transition: all .5s ease .3s;
-  -o-transition: all .5s ease .3s;
-  transition: all .5s ease .3s;
+  -webkit-transition: all 0.5s ease 0.3s;
+  -o-transition: all 0.5s ease 0.3s;
+  transition: all 0.5s ease 0.3s;
   z-index: 2;
 }
 
-.faculty-model .faculty-card .content{
+.faculty-model .faculty-card .content {
   margin-top: 30px;
 }
-.faculty-model .faculty-card .contact-text span{
+.faculty-model .faculty-card .contact-text span {
   margin-top: 150px;
 }
-.faculty-model .faculty-card .contact-text span{
+.faculty-model .faculty-card .contact-text span {
   display: block;
   color: var(--whiteColor);
   font-size: 18px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
 }
-.faculty-model .faculty-card .contact-text a{
+.faculty-model .faculty-card .contact-text a {
   display: block;
   color: var(--whiteColor);
   margin-bottom: 5px;
 }
-.faculty-model .faculty-card .contact-text a:last-child{
+.faculty-model .faculty-card .contact-text a:last-child {
   margin-bottom: 0px;
 }
 
-.faculty-model .faculty-card .content h4{
+.faculty-model .faculty-card .content h4 {
   font-size: 22px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
-
-
 
 .pera-dec .program-info {
   margin-bottom: 50px;
@@ -1853,90 +1900,89 @@ Academics Section Area CSS
 .pera-dec .program-info .single-program-info {
   padding: 0 25px;
 }
-.pera-dec .program-info .single-program-info h4{
-  font-family: 'Lexend', sans-serif;
+.pera-dec .program-info .single-program-info h4 {
+  font-family: "Lexend", sans-serif;
   font-size: 70px;
   margin-bottom: 20px;
 }
-.pera-dec .program-info .single-program-info p{
+.pera-dec .program-info .single-program-info p {
   font-size: 18px;
   color: var(--blackColor);
   font-weight: 600;
 }
-.pera-dec .apply-program{
+.pera-dec .apply-program {
   margin-bottom: 50px;
 }
-.pera-dec .apply-program:last-child{
+.pera-dec .apply-program:last-child {
   margin-bottom: 0px;
 }
-.pera-dec .apply-program a{
+.pera-dec .apply-program a {
   color: var(--mainColor);
   font-weight: 500;
 }
 
-
-.pera-dec .apply-program .tuition-fees h5{
+.pera-dec .apply-program .tuition-fees h5 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 30px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
-.pera-dec .apply-program .tuition-fees{
+.pera-dec .apply-program .tuition-fees {
   padding: 40px;
   background-color: var(--secounderyColor);
 }
-.pera-dec .apply-program .tuition-fees ul{
+.pera-dec .apply-program .tuition-fees ul {
   padding: 0;
   list-style: none;
   margin: 0;
   border-bottom: 1px solid #ddd;
   margin-bottom: 30px;
 }
-.pera-dec .apply-program .tuition-fees ul li{
+.pera-dec .apply-program .tuition-fees ul li {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
 }
-.pera-dec .apply-program .total-fees{
+.pera-dec .apply-program .total-fees {
   display: flex;
   justify-content: space-between;
 }
-.pera-dec .apply-program .total-fees span{
+.pera-dec .apply-program .total-fees span {
   color: var(--blackColor);
 }
-.pera-dec .program-points{
+.pera-dec .program-points {
   margin-bottom: 50px;
 }
-.pera-dec .program-points .single-point-list{
+.pera-dec .program-points .single-point-list {
   position: relative;
   padding-left: 60px;
   border-bottom: 1px solid var(--blackColor);
   padding-bottom: 35px;
   margin-bottom: 40px;
 }
-.pera-dec .program-points .single-point-list h4{
-  font-family: 'Lexend', sans-serif;
+.pera-dec .program-points .single-point-list h4 {
+  font-family: "Lexend", sans-serif;
   font-size: 30px;
 }
-.pera-dec .program-points .single-point-list .number-list{
+.pera-dec .program-points .single-point-list .number-list {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
 }
-.pera-dec .program-points .single-point-list .number-list h4{
-  font-family: 'Lexend', sans-serif;
+.pera-dec .program-points .single-point-list .number-list h4 {
+  font-family: "Lexend", sans-serif;
   font-size: 30px;
 }
 
-.pera-dec .program-points .single-point-btn{
+.pera-dec .program-points .single-point-btn {
   text-align: center;
 }
 .applicant-from label {
   color: var(--blackColor);
   margin-bottom: 20px;
 }
-.applicant-from .form-control{
+.applicant-from .form-control {
   border-radius: 0;
   background-color: transparent !important;
   -webkit-box-shadow: unset !important;
@@ -1945,7 +1991,7 @@ Academics Section Area CSS
   transition: var(--transition);
   border: none !important;
   border-radius: 3px;
-  border: 1px solid #EEEEEE !important;
+  border: 1px solid #eeeeee !important;
   height: 60px;
   padding-left: 15px;
   color: var(--paragraphColor);
@@ -1956,14 +2002,14 @@ Academics Section Area CSS
   margin-bottom: 30px;
   height: 60px;
   color: #212529;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   box-shadow: none;
   padding-left: 20px;
 }
 .applicant-from form .form-group textarea.form-control {
   height: auto;
 }
-.applicant-from .form-cookies-consent{
+.applicant-from .form-cookies-consent {
   width: 100%;
   float: left;
   position: relative;
@@ -1996,7 +2042,7 @@ Academics Section Area CSS
   padding-bottom: 3px;
   padding-top: 3px;
   color: var(--blackColor);
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 .icon-container i {
   font-size: 30px;
@@ -2024,12 +2070,12 @@ Academics Section Area CSS
 .list-item-list {
   margin-bottom: 30px;
 }
-.list-item-list h4{
+.list-item-list h4 {
   font-size: 20px;
   margin-bottom: 30px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
-.list-item-list .list-item-title{
+.list-item-list .list-item-title {
   padding: 20px 0px;
   background-color: var(--secounderyColor);
   margin-bottom: 30px;
@@ -2039,44 +2085,44 @@ Academics Section Area CSS
   font-weight: 500;
   padding-left: 35px;
 }
-.list-item-list .list-items-details{
+.list-item-list .list-items-details {
   padding-left: 35px;
 }
-.list-item-list .list-items-details ul{
+.list-item-list .list-items-details ul {
   padding: 0;
   list-style: none;
   margin-bottom: 0;
 }
-.list-item-list .list-items-details ul li p{
+.list-item-list .list-items-details ul li p {
   font-size: 16px;
   font-weight: 500;
   color: var(--paragraphColor);
 }
-.list-item-list .list-items-details ul li{
+.list-item-list .list-items-details ul li {
   margin-bottom: 20px;
 }
-.list-item-list .list-items-details ul li:last-child{
+.list-item-list .list-items-details ul li:last-child {
   margin-bottom: 0px;
 }
 .aid-pra {
   margin-bottom: 40px;
 }
-.aid-pra:last-child{
+.aid-pra:last-child {
   margin-bottom: 0px;
 }
-.aid-pra h4{
+.aid-pra h4 {
   margin-bottom: 25px;
 }
-.deadlines-list .list-item-list{
+.deadlines-list .list-item-list {
   margin-bottom: 50px;
 }
-.deadlines-list .list-item-list:last-child{
+.deadlines-list .list-item-list:last-child {
   margin-bottom: 0px;
 }
-.univercity-life .image{
+.univercity-life .image {
   margin-bottom: 40px;
 }
-.univercity-life .apply-program .image{
+.univercity-life .apply-program .image {
   margin-bottom: 0px;
 }
 .faq-content-2 .faq-question {
@@ -2089,7 +2135,7 @@ Academics Section Area CSS
   padding: 0px 0px;
   margin-bottom: 30px;
 }
-.faq-content-2 .faq-answer:last-child{
+.faq-content-2 .faq-answer:last-child {
   margin-bottom: 0px;
 }
 .faq-content-2 .faq-answer p {
@@ -2098,11 +2144,11 @@ Academics Section Area CSS
 .faq-content-2 .faq-answer.active {
   max-height: 200px !important;
 }
-.std-activities .graduate-events{
+.std-activities .graduate-events {
   margin-top: 15px !important;
   margin-bottom: 70px;
 }
-.std-activities .featured-clubs h3{
+.std-activities .featured-clubs h3 {
   margin-bottom: 0px !important;
 }
 .std-activities .featured-clubs ul {
@@ -2112,35 +2158,35 @@ Academics Section Area CSS
   justify-content: space-between;
   align-items: center;
 }
-.std-activities .featured-clubs ul li{
+.std-activities .featured-clubs ul li {
   display: inline-block;
 }
-.std-activities .featured-clubs ul li a{
+.std-activities .featured-clubs ul li a {
   text-decoration: underline;
   color: var(--mainColor);
   font-weight: 600;
 }
-.featured-clubs .clubs-item{
-  border-bottom: 1px solid #EEEEEE;
+.featured-clubs .clubs-item {
+  border-bottom: 1px solid #eeeeee;
   margin-bottom: 30px;
 }
-.featured-clubs .clubs-item:last-child{
+.featured-clubs .clubs-item:last-child {
   border-bottom: none;
   margin-bottom: 0px;
 }
-.featured-clubs .clubs-item span{
+.featured-clubs .clubs-item span {
   color: var(--paragraphColorSecond);
   margin-bottom: 25px;
   display: block;
 }
-.featured-clubs .clubs-item h4{
+.featured-clubs .clubs-item h4 {
   font-size: 24px !important;
   margin-bottom: 30px;
 }
-.featured-clubs .clubs-item p{
+.featured-clubs .clubs-item p {
   margin-bottom: 30px !important;
 }
-.featured-clubs p:last-child{
+.featured-clubs p:last-child {
   margin-bottom: 0px !important;
 }
 
@@ -2178,46 +2224,52 @@ Features Area CSS
   overflow-x: clip;
   position: relative;
 }
-.features-content-2{
+.features-content-2 {
   background-color: #f0f7ff;
   position: relative;
 }
-.features-content .sub-title, .features-content-2 .sub-title{
+.features-content .sub-title,
+.features-content-2 .sub-title {
   display: flex;
   margin-bottom: 10px;
   align-items: center;
 }
-.features-content .sub-title p{
+.features-content .sub-title p {
   margin-bottom: 0px;
   font-size: 20px;
 }
-.features-content-2 .sub-title p{
+.features-content-2 .sub-title p {
   font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 0px;
 }
-.features-content .sub-title i, .features-content-2 .sub-title i{
+.features-content .sub-title i,
+.features-content-2 .sub-title i {
   color: var(--mainColor);
   font-size: 30px;
   margin-right: 8px;
 }
-.features-content .content .item .item-content, .features-content-2 .content .item .item-content{
+.features-content .content .item .item-content,
+.features-content-2 .content .item .item-content {
   position: relative;
   padding-left: 80px;
 }
-.features-content .content h2, .features-content-2 .content h2{
+.features-content .content h2,
+.features-content-2 .content h2 {
   font-size: 48px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   color: var(--whiteColor);
   margin-bottom: 50px;
 }
-.features-content-2 .content h2{
+.features-content-2 .content h2 {
   color: var(--blackColor);
 }
-.features-content .content .item, .features-content-2 .content .item{
+.features-content .content .item,
+.features-content-2 .content .item {
   margin-bottom: 30px;
 }
-.features-content .content .item .item-content .icon, .features-content-2 .content .item .item-content .icon {
+.features-content .content .item .item-content .icon,
+.features-content-2 .content .item .item-content .icon {
   position: absolute;
   height: 60px;
   width: 60px;
@@ -2226,41 +2278,44 @@ Features Area CSS
   background-color: var(--whiteColor);
   border-radius: 30px;
 }
-.features-content .content .item .item-content .icon img, .features-content-2 .content .item .item-content .icon img  {
-  content: '';
+.features-content .content .item .item-content .icon img,
+.features-content-2 .content .item .item-content .icon img {
+  content: "";
   position: absolute;
   left: 18px;
   top: 16px;
 }
-.features-content .content .item .item-content h3, .features-content-2 .content .item .item-content h3{
-  font-family: 'Lexend', sans-serif;
+.features-content .content .item .item-content h3,
+.features-content-2 .content .item .item-content h3 {
+  font-family: "Lexend", sans-serif;
   font-size: 22px;
   color: var(--whiteColor);
 }
-.features-content-2 .content .item .item-content h3{
+.features-content-2 .content .item .item-content h3 {
   color: var(--blackColor);
 }
-.features-content-2 .content .item .item-content p{
-  color: var(--paragraphColor);padding-right: 40px;
+.features-content-2 .content .item .item-content p {
+  color: var(--paragraphColor);
+  padding-right: 40px;
 }
-.features-content-2 .content{
+.features-content-2 .content {
   position: relative;
 }
 .features-content-2 .content .arrow-icon {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -20px;
   right: 20px;
 }
 
-.features-content .image{
+.features-content .image {
   position: absolute;
-  content: '';
+  content: "";
   top: -82px;
   right: -190px;
 }
 
-.features-content-2 .academic-item .image{
+.features-content-2 .academic-item .image {
   position: relative;
 }
 
@@ -2270,7 +2325,7 @@ Features Area CSS
 
 .features-content-2 .academic-item .image .number {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -15%;
   right: 5%;
 }
@@ -2278,17 +2333,17 @@ Features Area CSS
 .features-content-2 .academic-item .image .number h3 {
   font-size: 96px;
   color: var(--whiteColor);
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
-.features-content-2 .academic-item .content{
+.features-content-2 .academic-item .content {
   padding: 20px;
   background-color: var(--whiteColor);
 }
 
-.features-content-2 .academic-item .content h4{
+.features-content-2 .academic-item .content h4 {
   font-size: 22px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .features-content-2 .academic-item .content .btn {
@@ -2298,9 +2353,9 @@ Features Area CSS
   padding: 0;
 }
 
-.features-content-2 .academic-item .content .btn i{
+.features-content-2 .academic-item .content .btn i {
   position: absolute;
-  content: '';
+  content: "";
   top: 0px;
   right: -30px;
   font-size: 25px;
@@ -2316,13 +2371,13 @@ Features Area CSS
 Video Area CSS
 =================================================*/
 
-.video-area{
+.video-area {
   background-image: url(../img/all-img/video-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 380px;
-  padding-bottom: 280px
+  padding-bottom: 280px;
 }
 
 .video-area .video-play-btn a {
@@ -2335,49 +2390,50 @@ Video Area CSS
   font-size: 20px;
   text-align: center;
   margin: auto;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 /*================================================
 Find Degree Area CSS
 =================================================*/
-.find-degree{
+.find-degree {
   background-image: url(../img/all-img/shape-3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.find-degree .d-row{
+.find-degree .d-row {
   display: flex;
 }
-.find-degree .d-row .d-col-1{
+.find-degree .d-row .d-col-1 {
   width: 31%;
 }
-.find-degree .d-row .d-col-2{
+.find-degree .d-row .d-col-2 {
   width: 38%;
 }
-.find-degree .d-row .d-col-3{
+.find-degree .d-row .d-col-3 {
   width: 30%;
 }
 
 .find-degree .content-1 {
   padding: 40px 40px;
   background-color: var(--whiteColor);
-  border: 1px solid #D9D9D9;
+  border: 1px solid #d9d9d9;
   border-radius: 5px;
 }
 
-.find-degree .content-1 h4{
+.find-degree .content-1 h4 {
   background-color: var(--mainColor);
   padding: 10px;
   font-size: 24px;
   color: var(--whiteColor);
   margin-bottom: 20px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
-.find-degree .content-1 .selector-box, .find-degree .content-1 .selector-box-2 {
+.find-degree .content-1 .selector-box,
+.find-degree .content-1 .selector-box-2 {
   display: flex;
   align-items: center;
   margin-bottom: 16px;
@@ -2387,13 +2443,17 @@ Find Degree Area CSS
   margin-right: 30px;
 }
 
-.find-degree .content-1 .selector-box .form-check-input:checked[type=radio], .find-degree .content-1 .selector-box-2 .form-check-input:checked[type=radio] {
+.find-degree .content-1 .selector-box .form-check-input:checked[type="radio"],
+.find-degree
+  .content-1
+  .selector-box-2
+  .form-check-input:checked[type="radio"] {
   background-image: url(../img/icon/active.png);
 }
 
 .find-degree .content-1 .search-key label {
   color: var(--blackColor);
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 16px;
@@ -2401,7 +2461,7 @@ Find Degree Area CSS
 
 .find-degree .content-1 .search-key .form-control {
   background-color: var(--whiteColor) !important;
-  border: 1px solid #D9D9D9 !important;
+  border: 1px solid #d9d9d9 !important;
   margin-bottom: 15px;
 }
 
@@ -2440,7 +2500,7 @@ Find Degree Area CSS
 
 .find-degree .content-image .content {
   position: absolute;
-  content: '';
+  content: "";
   top: 10%;
   left: 0;
   right: 0;
@@ -2456,14 +2516,14 @@ Find Degree Area CSS
 .find-degree .content-image .content h3 {
   font-size: 40px;
   color: var(--whiteColor);
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-bottom: 0px;
 }
 
-.find-degree .content-image .content h4{
+.find-degree .content-image .content h4 {
   font-size: 30px;
   color: var(--mainColor);
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .find-degree .content-image .content .btn {
@@ -2487,7 +2547,7 @@ Find Degree Area CSS
   margin-bottom: 16px;
 }
 
-.find-degree .search-key .form-select:focus{
+.find-degree .search-key .form-select:focus {
   box-shadow: none;
   border-color: var(--mainColor);
 }
@@ -2497,7 +2557,7 @@ Find Degree Area CSS
 }
 
 .find-degree .search-key span {
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 700;
   margin-bottom: 4px;
   font-size: 16px;
@@ -2507,13 +2567,13 @@ Find Degree Area CSS
 .find-degree .content-2 {
   padding: 40px 40px;
   background-color: var(--whiteColor);
-  border: 1px solid #D9D9D9;
+  border: 1px solid #d9d9d9;
   border-radius: 5px;
 }
 
-.find-degree .content-2 h4{
+.find-degree .content-2 h4 {
   font-size: 24px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 700;
   margin-bottom: 30px;
 }
@@ -2529,7 +2589,6 @@ Find Degree Area CSS
 }
 
 .find-degree .content-2 .nav-tabs .nav-link.active {
-
   border-top: none;
   border-radius: 0;
   border-left: none;
@@ -2561,45 +2620,48 @@ Find Degree Area CSS
 About University Area CSS
 =================================================*/
 
-.about-university{
+.about-university {
   background-color: var(--secounderyColor);
   position: relative;
 }
 
-.about-university .sub-title, .about-university .sub-title{
+.about-university .sub-title,
+.about-university .sub-title {
   display: flex;
   margin-bottom: 30px;
   align-items: center;
 }
 
-.about-university .sub-title p{
+.about-university .sub-title p {
   font-size: 20px;
   margin-bottom: 0px;
 }
 
-.about-university .sub-title i, .about-university .sub-title i{
+.about-university .sub-title i,
+.about-university .sub-title i {
   color: var(--mainColor);
   font-size: 30px;
   margin-right: 8px;
 }
 
-.about-university .content h2, .about-university .content h2{
+.about-university .content h2,
+.about-university .content h2 {
   font-size: 48px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   color: var(--whiteColor);
 }
 
-.about-university .content h2{
+.about-university .content h2 {
   color: var(--blackColor);
 }
 
-.about-university .content .item{
+.about-university .content .item {
   margin: 30px 0;
   position: relative;
   padding-left: 80px;
 }
 
-.about-university .content .item .item-content .number{
+.about-university .content .item .item-content .number {
   position: absolute;
   height: 60px;
   width: 60px;
@@ -2609,8 +2671,8 @@ About University Area CSS
   border-radius: 30px;
   margin-right: 25px;
 }
-.about-university .content .item .item-content .number h4{
-  content: '';
+.about-university .content .item .item-content .number h4 {
+  content: "";
   position: absolute;
   left: 18px;
   top: 18px;
@@ -2619,21 +2681,20 @@ About University Area CSS
   color: var(--whiteColor);
 }
 
-.about-university .content .item .item-content h3{
-  font-family: 'Lexend', sans-serif;
+.about-university .content .item .item-content h3 {
+  font-family: "Lexend", sans-serif;
   font-size: 22px;
   color: var(--blackColor);
 }
 
-.about-university .content .item .item-content p{
+.about-university .content .item .item-content p {
   color: var(--paragraphColor);
 }
-
 
 /*================================================
 News Area CSS
 =================================================*/
-.news-content{
+.news-content {
   background-color: var(--secounderyColor);
 }
 
@@ -2646,12 +2707,12 @@ News Area CSS
 .news-content ul li {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-.news-content ul li:last-child{
+.news-content ul li:last-child {
   border-bottom: none;
 }
 
@@ -2669,18 +2730,18 @@ News Area CSS
   align-items: center;
 }
 
-.news-item .sub-title p{
+.news-item .sub-title p {
   margin-bottom: 0px;
 }
 
-.news-item .sub-title i{
+.news-item .sub-title i {
   color: var(--mainColor);
   font-size: 30px;
   margin-right: 8px;
 }
 
-.news-item .content h2{
-  font-family: 'Lexend', sans-serif;
+.news-item .content h2 {
+  font-family: "Lexend", sans-serif;
   font-size: 24px;
   margin-bottom: 30px;
 }
@@ -2699,7 +2760,7 @@ News Area CSS
   font-weight: 500;
 }
 
-.news-content-right{
+.news-content-right {
   margin-bottom: 20px;
 }
 
@@ -2713,12 +2774,12 @@ News Area CSS
 }
 
 .news-content-right .content-box .content h3 {
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-.news-content-right .content-box .content .btn{
+.news-content-right .content-box .content .btn {
   color: var(--mainColor);
   text-decoration: underline;
   padding: 0;
@@ -2729,7 +2790,7 @@ News Area CSS
 .news-content-item {
   padding-left: 30px;
   padding-right: 30px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
 }
 
 .news-content-item .content-box {
@@ -2739,7 +2800,7 @@ News Area CSS
   padding-top: 30px;
 }
 
-.news-content-item .content-box:last-child{
+.news-content-item .content-box:last-child {
   border-bottom: none;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -2749,29 +2810,29 @@ News Area CSS
   width: 40%;
 }
 
-.news-content-item .content-box .content .sub-title{
+.news-content-item .content-box .content .sub-title {
   display: flex;
   margin-bottom: 5px;
   align-items: center;
 }
-.news-content-item .content-box .content .sub-title i{
+.news-content-item .content-box .content .sub-title i {
   color: var(--mainColor);
   font-size: 25px;
   margin-right: 10px;
 }
-.news-content-item .content-box .content .sub-title p{
+.news-content-item .content-box .content .sub-title p {
   margin-bottom: 0px;
 }
-.news-content-item .content-box .content h3{
-  font-family: 'Lexend', sans-serif;
+.news-content-item .content-box .content h3 {
+  font-family: "Lexend", sans-serif;
   font-size: 18px;
 }
 
-.section-btn{
+.section-btn {
   padding-top: 40px;
 }
 
-.section-btn a{
+.section-btn a {
   color: var(--mainColor);
   position: relative;
   font-weight: 500;
@@ -2779,7 +2840,7 @@ News Area CSS
 
 .section-btn a i {
   position: absolute;
-  content: '';
+  content: "";
   font-size: 25px;
   top: 0px;
   right: -25px;
@@ -2789,16 +2850,15 @@ News Area CSS
 Blog Area CSS
 =================================================*/
 
-.widget-area .widget{
+.widget-area .widget {
   padding: 40px;
   background: var(--whiteColor);
   box-shadow: 0px 7px 60px rgba(22, 23, 26, 0.07);
   margin-bottom: 30px;
 }
 
-
 .widget-area .widget .widget-title::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   width: 50px;
@@ -2813,7 +2873,7 @@ Blog Area CSS
   padding-bottom: 20px;
   border-bottom: 1px solid #d6d6d6;
   font-size: 24px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .widget-area .widget-search form {
@@ -2867,7 +2927,7 @@ Blog Area CSS
   justify-content: space-between;
   align-items: center;
 }
-.widget-area .widget-catagories ul li:last-child{
+.widget-area .widget-catagories ul li:last-child {
   margin-bottom: 0px;
 }
 .widget-area .widget-catagories ul li a {
@@ -2875,10 +2935,9 @@ Blog Area CSS
   font-weight: 400;
   color: var(--paragraphColor);
 }
-.widget-area .widget-catagories ul li span{
+.widget-area .widget-catagories ul li span {
   color: var(--paragraphColor);
 }
-
 
 .widget-area .widget-list ul {
   list-style: none;
@@ -2891,7 +2950,7 @@ Blog Area CSS
   align-items: center;
   margin-bottom: 10px;
 }
-.widget-area .widget-list ul li:last-child{
+.widget-area .widget-list ul li:last-child {
   margin-bottom: 0px;
 }
 .widget-area .widget-list ul li a {
@@ -2899,7 +2958,7 @@ Blog Area CSS
   font-weight: 400;
   color: var(--paragraphColor);
 }
-.widget-area .widget-list ul li span{
+.widget-area .widget-list ul li span {
   color: var(--paragraphColor);
 }
 
@@ -2908,7 +2967,7 @@ Blog Area CSS
   align-items: center;
 }
 
-.widget-area .widget-list ul li .form-check{
+.widget-area .widget-list ul li .form-check {
   padding: 0;
   margin: 0;
 }
@@ -2916,7 +2975,6 @@ Blog Area CSS
 .widget-area .widget-list ul li .form-check p {
   padding-left: 8px;
 }
-
 
 .radio-input {
   visibility: hidden;
@@ -2953,8 +3011,7 @@ Blog Area CSS
   background-color: var(--mainColor);
 }
 
-
-.widget-area .widget-list .radio-from ul{
+.widget-area .widget-list .radio-from ul {
   list-style: none;
   padding: 0;
 }
@@ -2963,14 +3020,14 @@ Blog Area CSS
   display: inline-block;
   padding-right: 5px;
   font-size: 18px;
-  color: #DDDDDD;
+  color: #dddddd;
   margin: 0;
 }
-.widget-area .widget-list .radio-from ul li .active{
-  color: #FFC107;
+.widget-area .widget-list .radio-from ul li .active {
+  color: #ffc107;
 }
 
-.widget-area .widget-banner{
+.widget-area .widget-banner {
   background-image: url(../img/all-img/blog-banner.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -2981,13 +3038,13 @@ Blog Area CSS
   color: var(--whiteColor);
   font-weight: 800;
   position: relative;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-bottom: 40px;
   margin-bottom: 175px;
 }
-.widget-banner .blog-banner-content .title::after{
+.widget-banner .blog-banner-content .title::after {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -15px;
   left: 0;
   width: 60px;
@@ -2996,7 +3053,7 @@ Blog Area CSS
 }
 .widget-banner .blog-banner-content .price {
   color: var(--whiteColor);
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 64px;
   font-weight: 800;
   margin-bottom: 30px;
@@ -3006,19 +3063,19 @@ Blog Area CSS
   font-size: 18px;
   font-weight: 400;
 }
-.widget-banner .blog-banner-content .banner-button .default-btn{
+.widget-banner .blog-banner-content .banner-button .default-btn {
   width: 100%;
   text-align: center;
 }
-.widget-tags ul{
+.widget-tags ul {
   list-style: none;
   padding: 0;
   margin-bottom: 0;
 }
-.widget-tags ul li{
+.widget-tags ul li {
   display: inline-block;
 }
-.widget-tags ul li a{
+.widget-tags ul li a {
   display: inline-block;
   padding: 10px;
   border: 1px solid #eeeeee;
@@ -3026,20 +3083,20 @@ Blog Area CSS
   margin-bottom: 15px;
   color: var(--paragraphColor);
 }
-.widget-tags ul li a:hover{
+.widget-tags ul li a:hover {
   background-color: var(--mainColor);
   color: var(--whiteColor);
   border: 1px solid var(--mainColor);
 }
-.blog-single-card{
+.blog-single-card {
   box-shadow: 7px 7px 60px rgba(22, 23, 26, 0.06);
   margin-bottom: 30px;
 }
-.blog-single-card .content{
+.blog-single-card .content {
   padding: 30px;
 }
 
-.blog-single-card .content .meta ul{
+.blog-single-card .content .meta ul {
   padding: 0;
   list-style: none;
 }
@@ -3049,43 +3106,42 @@ Blog Area CSS
   color: var(--paragraphColor);
   position: relative;
 }
-.blog-single-card .content .meta ul li:last-child{
+.blog-single-card .content .meta ul li:last-child {
   margin-right: 0px;
 }
-.blog-single-card .content .meta ul li::before{
+.blog-single-card .content .meta ul li::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 11px;
   right: -45px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   height: 1px;
   width: 35px;
 }
 
-.blog-single-card .content .meta ul li:last-child:before{
+.blog-single-card .content .meta ul li:last-child:before {
   display: none;
 }
 
-.blog-single-card .content .meta ul li a{
+.blog-single-card .content .meta ul li a {
   color: var(--paragraphColor);
 }
 
-.blog-single-card .content h3{
+.blog-single-card .content h3 {
   font-size: 22px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-bottom: 30px;
 }
 
-.blog-single-card .content .butn{
+.blog-single-card .content .butn {
   color: var(--mainColor);
   position: relative;
   font-weight: 500;
-  
 }
 
-.blog-single-card .content .butn i{
+.blog-single-card .content .butn i {
   position: absolute;
-  content: '';
+  content: "";
   font-size: 25px;
   top: 0px;
   right: -25px;
@@ -3094,7 +3150,7 @@ Blog Area CSS
 
 .blog-single-card .content .butn:hover i {
   position: absolute;
-  content: '';
+  content: "";
   top: 0px;
   right: -30px;
   font-size: 25px;
@@ -3116,15 +3172,15 @@ Blog Area CSS
   font-size: 16px;
   transition: var(--transition);
 }
-.blog-pagi .pagination .page-link i{
+.blog-pagi .pagination .page-link i {
   font-weight: 600;
   font-size: 16px;
 }
-.blog-pagi .pagination .page-link:hover{
+.blog-pagi .pagination .page-link:hover {
   background-color: var(--mainColor);
   color: var(--whiteColor);
 }
-.blog-pagi .pagination .page-link.active{
+.blog-pagi .pagination .page-link.active {
   background-color: var(--mainColor);
   color: var(--whiteColor);
 }
@@ -3133,7 +3189,7 @@ Blog Area CSS
   padding-right: 30px;
 }
 
-.blog-details-desc .article-image{
+.blog-details-desc .article-image {
   margin-bottom: 30px;
 }
 .blog-details-desc .article-content .entry-meta ul {
@@ -3148,23 +3204,23 @@ Blog Area CSS
   color: var(--paragraphColor);
 }
 
-.blog-details-desc .article-content .entry-meta ul li a{
+.blog-details-desc .article-content .entry-meta ul li a {
   color: var(--paragraphColor);
 }
 
 .blog-details-desc .article-content .entry-meta ul li::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 11px;
   right: -45px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   height: 1px;
   width: 35px;
 }
 .blog-details-desc .article-content .entry-meta ul li:last-child:before {
   display: none;
 }
-.blog-details-desc .article-content .entry-meta ul li:last-child{
+.blog-details-desc .article-content .entry-meta ul li:last-child {
   margin-right: 0px;
 }
 
@@ -3194,17 +3250,18 @@ Blog Area CSS
   margin-bottom: 0;
 }
 
-.blog-details-desc .article-content h3{
+.blog-details-desc .article-content h3 {
   font-size: 30px;
-  font-family: 'Lexend', sans-serif;
-  margin-bottom: 30px
+  font-family: "Lexend", sans-serif;
+  margin-bottom: 30px;
 }
 
-.blog-details-desc .article-content p{
-  margin-bottom: 30px
+.blog-details-desc .article-content p {
+  margin-bottom: 30px;
 }
 
-blockquote, .blockquote {
+blockquote,
+.blockquote {
   overflow: hidden;
   padding: 0px 50px 0 30px !important;
   position: relative;
@@ -3214,8 +3271,9 @@ blockquote, .blockquote {
   margin-left: 40px;
 }
 
-blockquote::after, .blockquote::after {
-  content: '';
+blockquote::after,
+.blockquote::after {
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -3224,17 +3282,18 @@ blockquote::after, .blockquote::after {
   background-color: var(--mainColor);
 }
 
-blockquote p, .blockquote p {
+blockquote p,
+.blockquote p {
   color: var(--blackColor);
   line-height: 1.6;
   margin-bottom: 0;
   font-weight: 600;
   font-size: 20px !important;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-bottom: 0px !important;
 }
 
-.blog-details-desc .article-footer{
+.blog-details-desc .article-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3259,17 +3318,17 @@ blockquote p, .blockquote p {
   top: -1px;
   font-size: 18px;
   font-weight: 800;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
-.blog-details-desc .article-footer .article-tags a{
+.blog-details-desc .article-footer .article-tags a {
   color: var(--paragraphColor);
   transition: var(--transition);
 }
-.blog-details-desc .article-footer .article-tags a:hover{
+.blog-details-desc .article-footer .article-tags a:hover {
   color: var(--mainColor);
 }
 
-.blog-details-desc .article-footer .article-share{
+.blog-details-desc .article-footer .article-share {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
@@ -3293,7 +3352,7 @@ blockquote p, .blockquote p {
   font-weight: 700;
   position: relative;
   top: -1px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .blog-details-desc .article-footer .article-share .social li a {
@@ -3317,16 +3376,16 @@ blockquote p, .blockquote p {
   border: 1px solid var(--mainColor);
 }
 
-.comments-area .comments-title{
+.comments-area .comments-title {
   font-size: 30px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 800;
   position: relative;
   margin-bottom: 50px;
 }
-.comments-area .comments-title::after{
+.comments-area .comments-title::after {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -10px;
   left: 0;
   width: 80px;
@@ -3334,17 +3393,17 @@ blockquote p, .blockquote p {
   background-color: var(--mainColor);
 }
 
-.comments-area .comment-list{
+.comments-area .comment-list {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
-.comments-area .comment-list{
+.comments-area .comment-list {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
-.comments-area .comment-body{
+.comments-area .comment-body {
   border-bottom: 1px dashed #eeeeee;
   padding-left: 130px;
   color: var(--blackColor);
@@ -3352,7 +3411,7 @@ blockquote p, .blockquote p {
   padding-bottom: 20px;
 }
 
-.comments-area .comment-author{
+.comments-area .comment-author {
   font-size: 16px;
   margin-bottom: 6px;
   position: relative;
@@ -3367,12 +3426,12 @@ blockquote p, .blockquote p {
 .comments-area .comment-author .fn {
   font-weight: 700;
   font-size: 20px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .comments-area .comment-author .reply {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   right: 0;
 }
@@ -3386,7 +3445,7 @@ blockquote p, .blockquote p {
   background-color: var(--secounderyColor);
 }
 
-.comments-area .comment-body .reply a:hover{
+.comments-area .comment-body .reply a:hover {
   color: var(--whiteColor);
   background-color: var(--mainColor);
 }
@@ -3398,14 +3457,15 @@ blockquote p, .blockquote p {
   font-size: 16px;
 }
 
-.comments-area .comment-content .reply{
+.comments-area .comment-content .reply {
   display: none;
 }
 
 .comments-area .children {
   margin-left: 70px;
 }
-.comments-area ol, .comments-area ul {
+.comments-area ol,
+.comments-area ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -3437,7 +3497,7 @@ blockquote p, .blockquote p {
 
 .comments-area .comment-reply-title {
   font-size: 30px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 800;
   position: relative;
   margin-bottom: 50px;
@@ -3445,7 +3505,7 @@ blockquote p, .blockquote p {
 
 .comments-area .comment-reply-title::after {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -15px;
   left: 0;
   width: 80px;
@@ -3453,7 +3513,19 @@ blockquote p, .blockquote p {
   background-color: var(--mainColor);
 }
 
-.comments-area .comment-respond input[type="date"], .comments-area .comment-respond input[type="time"], .comments-area .comment-respond input[type="datetime-local"], .comments-area .comment-respond input[type="week"], .comments-area .comment-respond input[type="month"], .comments-area .comment-respond input[type="text"], .comments-area .comment-respond input[type="email"], .comments-area .comment-respond input[type="url"], .comments-area .comment-respond input[type="password"], .comments-area .comment-respond input[type="search"], .comments-area .comment-respond input[type="tel"], .comments-area .comment-respond input[type="number"], .comments-area .comment-respond textarea {
+.comments-area .comment-respond input[type="date"],
+.comments-area .comment-respond input[type="time"],
+.comments-area .comment-respond input[type="datetime-local"],
+.comments-area .comment-respond input[type="week"],
+.comments-area .comment-respond input[type="month"],
+.comments-area .comment-respond input[type="text"],
+.comments-area .comment-respond input[type="email"],
+.comments-area .comment-respond input[type="url"],
+.comments-area .comment-respond input[type="password"],
+.comments-area .comment-respond input[type="search"],
+.comments-area .comment-respond input[type="tel"],
+.comments-area .comment-respond input[type="number"],
+.comments-area .comment-respond textarea {
   display: block;
   width: 100%;
   border: none;
@@ -3531,7 +3603,9 @@ blockquote p, .blockquote p {
 Faculty CSS
 =================================================*/
 
-.faculty-area, .faculty-area-2, .faculty-area-3{
+.faculty-area,
+.faculty-area-2,
+.faculty-area-3 {
   background-image: url(../img/all-img/shape-2.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -3547,24 +3621,24 @@ Faculty CSS
   width: 30%;
 }
 
-.faculty-area .content .text h3{
-  font-family: 'Lexend', sans-serif;
+.faculty-area .content .text h3 {
+  font-family: "Lexend", sans-serif;
   font-size: 30px;
   color: var(--whiteColor);
 }
 
-.faculty-area .content .text p{
+.faculty-area .content .text p {
   color: var(--paragraphColorSecond);
   padding-right: 45px;
 }
 
-.faculty-area-2 .heading h2{
-  font-family: 'Lexend', sans-serif;
+.faculty-area-2 .heading h2 {
+  font-family: "Lexend", sans-serif;
   font-size: 48px;
   color: var(--whiteColor);
 }
 
-.faculty-area-2 .content p{
+.faculty-area-2 .content p {
   color: var(--paragraphColorSecond);
 }
 
@@ -3582,7 +3656,7 @@ Faculty CSS
 .faculty-area-3 .content h2 {
   color: var(--whiteColor);
   margin-bottom: 10px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 48px;
 }
 
@@ -3598,19 +3672,19 @@ Faculty CSS
 /*================================================
 Contact Area CSS
 =================================================*/
-.contact-content{
+.contact-content {
   margin-right: 30px;
 }
-.contact-content .header-content h2{
+.contact-content .header-content h2 {
   font-size: 30px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-bottom: 30px;
 }
 .contact-content .header-content p a {
   font-weight: 600;
 }
 
-.map-pd{
+.map-pd {
   padding-bottom: 30px;
 }
 #map iframe {
@@ -3644,10 +3718,10 @@ Contact Area CSS
   margin: 0 !important;
 }
 
-.contact-form form #msgSubmit.text-danger, .contact-form form #msgSubmit.text-success {
+.contact-form form #msgSubmit.text-danger,
+.contact-form form #msgSubmit.text-success {
   margin-top: 15px !important;
 }
-
 
 .contact-form .form-control {
   border-radius: 0;
@@ -3658,7 +3732,7 @@ Contact Area CSS
   transition: var(--transition);
   border: none !important;
   border-radius: 3px;
-  border: 1px solid #EEEEEE !important;
+  border: 1px solid #eeeeee !important;
   height: 60px;
   padding-left: 15px;
   color: var(--paragraphColor);
@@ -3666,7 +3740,7 @@ Contact Area CSS
   margin-bottom: 30px;
 }
 
-.contact-form label{
+.contact-form label {
   color: var(--paragraphColor);
   margin-bottom: 20px;
 }
@@ -3675,35 +3749,35 @@ Contact Area CSS
   margin-bottom: 30px;
   height: 60px;
   color: #212529;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   box-shadow: none;
   padding-left: 20px;
 }
-.contact-info .info-details ul{
+.contact-info .info-details ul {
   padding: 0;
   list-style: none;
   margin: 0;
 }
-.contact-info .info-details ul li{
+.contact-info .info-details ul li {
   font-size: 16px;
   color: var(--paragraphColor);
   padding-left: 30px;
   position: relative;
   margin-bottom: 30px;
 }
-.contact-info .info-details ul li a{
+.contact-info .info-details ul li a {
   color: var(--paragraphColor);
 }
-.contact-info .info-details ul li .info-mail{
+.contact-info .info-details ul li .info-mail {
   font-weight: 700;
   color: var(--blackColor);
 }
-.contact-info .info-details ul li:last-child{
+.contact-info .info-details ul li:last-child {
   margin-bottom: 0px;
 }
-.contact-info .info-details ul li i{
+.contact-info .info-details ul li i {
   position: absolute;
-  content: '';
+  content: "";
   top: 3px;
   left: 0;
   font-size: 20px;
@@ -3714,7 +3788,7 @@ Contact Area CSS
 Quick Search CSS
 =================================================*/
 
-.quick-search{
+.quick-search {
   background-image: url(../img/all-img/bg-image.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -3725,20 +3799,20 @@ Quick Search CSS
   padding-left: 40px;
 }
 
-.quick-search .course-search-box{
+.quick-search .course-search-box {
   padding: 60px 50px;
   box-shadow: 0px 0px 30px 10px rgba(22, 23, 26, 0.05);
   background-color: var(--whiteColor);
 }
 
-.quick-search .course-search-box h4{
-  font-family: 'Lexend', sans-serif;
+.quick-search .course-search-box h4 {
+  font-family: "Lexend", sans-serif;
   margin-bottom: 30px;
 }
 
 .quick-search .course-search-box .search-key .form-control {
   background-color: var(--whiteColor) !important;
-  border: 1px solid #D9D9D9 !important;
+  border: 1px solid #d9d9d9 !important;
   margin-bottom: 15px;
 }
 
@@ -3748,7 +3822,7 @@ Quick Search CSS
   margin-bottom: 15px;
 }
 
-.quick-search .course-search-box .search-key .form-select:focus{
+.quick-search .course-search-box .search-key .form-select:focus {
   box-shadow: none;
   border-color: var(--mainColor);
 }
@@ -3759,7 +3833,7 @@ Quick Search CSS
   border-radius: 6px;
 }
 
-.quick-search .quick-content .sub-title{
+.quick-search .quick-content .sub-title {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -3778,7 +3852,7 @@ Quick Search CSS
 .quick-search .quick-content h2 {
   margin-bottom: 30px;
   font-size: 48px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .quick-search .quick-content .list .list-items ul {
@@ -3791,7 +3865,7 @@ Quick Search CSS
 .quick-search .quick-content .list .list-items ul li {
   margin-bottom: 25px;
   font-size: 20px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 600;
   position: relative;
   color: var(--blackColor);
@@ -3801,12 +3875,12 @@ Quick Search CSS
   color: var(--mainColor);
   font-size: 25px;
   position: absolute;
-  content: '';
+  content: "";
   top: 5px;
   left: -30px;
 }
 
-.quick-search .quick-content .apply-banner{
+.quick-search .quick-content .apply-banner {
   background-image: url(../img/all-img/shape-1.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -3816,43 +3890,43 @@ Quick Search CSS
   margin-bottom: 40px;
 }
 
-.quick-search .quick-content .apply-banner p{
+.quick-search .quick-content .apply-banner p {
   color: var(--whiteColor);
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
 
-.quick-search .quick-content .user-exprience .user-info{
+.quick-search .quick-content .user-exprience .user-info {
   display: flex;
 }
 
-.quick-search .quick-content .user-exprience .user-info .image{
+.quick-search .quick-content .user-exprience .user-info .image {
   margin-right: 15px;
 }
 
-.quick-search .quick-content .user-exprience .user-info .text h4{
-  font-family: 'Lexend', sans-serif;
+.quick-search .quick-content .user-exprience .user-info .text h4 {
+  font-family: "Lexend", sans-serif;
   font-size: 20px;
 }
 
-.quick-search .quick-content .user-exprience .exprience{
+.quick-search .quick-content .user-exprience .exprience {
   display: flex;
   align-items: center;
 }
 
-.quick-search .quick-content .user-exprience .exprience .icon{
+.quick-search .quick-content .user-exprience .exprience .icon {
   margin-right: 15px;
 }
 
-.quick-search .quick-content .user-exprience .exprience .text{
+.quick-search .quick-content .user-exprience .exprience .text {
   display: flex;
   align-items: center;
 }
 
-.quick-search .quick-content .user-exprience .exprience .text h4{
+.quick-search .quick-content .user-exprience .exprience .text h4 {
   font-size: 40px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-right: 10px;
 }
 
@@ -3860,27 +3934,27 @@ Quick Search CSS
   line-height: 24px;
 }
 
-.quick-search.style-2 .quick-content .sub-title{
+.quick-search.style-2 .quick-content .sub-title {
   text-transform: uppercase;
 }
 
-.quick-search.style-3{
+.quick-search.style-3 {
   background-image: url(../img/all-img/bg-image-2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.quick-search.style-3 .quick-content .user-exprience .user-info{
+.quick-search.style-3 .quick-content .user-exprience .user-info {
   align-items: center;
   justify-content: flex-end;
 }
 
-.quick-search.style-3 .quick-content .user-exprience .user-info .text{
+.quick-search.style-3 .quick-content .user-exprience .user-info .text {
   margin-right: 20px;
 }
 
-.quick-search.style-3 .quick-content .user-exprience .user-info .text p{
+.quick-search.style-3 .quick-content .user-exprience .user-info .text p {
   color: var(--whiteColor);
 }
 
@@ -3894,7 +3968,7 @@ Quick Search CSS
 Scholarship CSS
 =================================================*/
 
-.scholarship-area{
+.scholarship-area {
   background-color: var(--blackColor);
 }
 
@@ -3904,17 +3978,17 @@ Scholarship CSS
   text-align: center;
 }
 
-.scholarship-area .content h2{
+.scholarship-area .content h2 {
   color: var(--whiteColor);
   margin-bottom: 10px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 48px;
 }
-.scholarship-area .content p{
+.scholarship-area .content p {
   color: var(--paragraphColorSecond);
   margin-bottom: 30px;
 }
-.scholarship-area .content .default-btn{
+.scholarship-area .content .default-btn {
   border-radius: 5px;
 }
 
@@ -3929,21 +4003,21 @@ Success Award CSS
 
 .success-award-area .content .arrow {
   position: absolute;
-  content: '';
+  content: "";
   bottom: 0%;
   right: -20%;
 }
 
-.success-award-area .content span{
+.success-award-area .content span {
   font-size: 20px;
   display: block;
   margin-bottom: 30px;
   color: var(--paragraphColor);
 }
 
-.success-award-area .content h2{
+.success-award-area .content h2 {
   font-size: 48px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-bottom: 40px;
 }
 
@@ -3957,7 +4031,7 @@ Success Award CSS
   margin-bottom: 20px;
 }
 
-.success-award-area .content ol li b{
+.success-award-area .content ol li b {
   color: var(--blackColor);
 }
 
@@ -3970,7 +4044,7 @@ Success Award CSS
 
 .success-award-area .content .notice i {
   position: absolute;
-  content: '';
+  content: "";
   top: 36px;
   left: 25px;
   color: var(--blackColor);
@@ -3984,20 +4058,20 @@ Success Award CSS
   font-size: 18px;
 }
 
-.success-award-area .image{
+.success-award-area .image {
   position: relative;
 }
 
-.success-award-area .image .play{
+.success-award-area .image .play {
   position: absolute;
-  content: '';
+  content: "";
   top: 50%;
   bottom: 0;
   left: 46%;
   right: 0;
 }
 
-.success-award-area .image .play .button a{
+.success-award-area .image .play .button a {
   height: 50px;
   display: inline-block;
   width: 50px;
@@ -4010,9 +4084,9 @@ Success Award CSS
   position: relative;
 }
 
-.success-award-area .image .play .button a::before{
+.success-award-area .image .play .button a::before {
   position: absolute;
-  content: '';
+  content: "";
   height: 65px;
   width: 65px;
   top: -7px;
@@ -4026,11 +4100,11 @@ Success Award CSS
 Activities CSS
 =================================================*/
 
-.activities-area{
+.activities-area {
   background-color: var(--secounderyColor);
 }
 
-.activities-card{
+.activities-card {
   padding: 10px;
   box-shadow: 0px 0px 75px #6767672e;
   background-color: var(--whiteColor);
@@ -4048,7 +4122,7 @@ Activities CSS
 .activities-card .content h2 {
   margin-top: 10px;
   font-size: 26px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -4064,11 +4138,11 @@ Activities CSS
   margin-bottom: 40px;
 }
 
-.activities-card.style-2{
+.activities-card.style-2 {
   padding: 0px;
 }
 
-.activities-card.style-3{
+.activities-card.style-3 {
   box-shadow: none;
   background-color: transparent;
 }
@@ -4089,14 +4163,14 @@ Activities CSS
 /*================================================
 Campus Area CSS
 =================================================*/
-.campus-experience-area .content .comment-box-info{
+.campus-experience-area .content .comment-box-info {
   padding: 30px 40px;
   box-shadow: 0px 0px 30px 10px rgba(22, 23, 26, 0.05);
   border-radius: 5px;
   margin-bottom: 30px;
 }
 
-.campus-experience-area .content span{
+.campus-experience-area .content span {
   font-size: 20px;
   display: block;
   margin-bottom: 30px;
@@ -4105,7 +4179,7 @@ Campus Area CSS
 
 .campus-experience-area .content h2 {
   font-size: 48px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-bottom: 40px;
 }
 
@@ -4119,22 +4193,22 @@ Campus Area CSS
   margin-right: 15px;
 }
 
-.campus-experience-area .content .comment-box-info .admin-info .text{
+.campus-experience-area .content .comment-box-info .admin-info .text {
   position: relative;
 }
 
 .campus-experience-area .content .comment-box-info .admin-info .text i {
   position: absolute;
-  content: '';
+  content: "";
   top: 1px;
   right: -19%;
-  color: #3897F0;
+  color: #3897f0;
   font-size: 20px;
 }
 
 .campus-experience-area .content .comment-box-info .admin-info .icon {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   right: 0;
 }
@@ -4143,22 +4217,22 @@ Campus Area CSS
   margin-bottom: 2px;
 }
 
-.campus-experience-area .content .comment-box-info .admin-comment .date{
+.campus-experience-area .content .comment-box-info .admin-comment .date {
   color: var(--paragraphColor);
 }
 
 /*================================================
 Campus Area 2 CSS
 =================================================*/
-.campus-area-2{
+.campus-area-2 {
   position: relative;
 }
 
-.campus-area-2 .section-title-2 h2{
+.campus-area-2 .section-title-2 h2 {
   color: var(--whiteColor);
 }
 
-.campus-area-2 .section-title-2 .sub-title p{
+.campus-area-2 .section-title-2 .sub-title p {
   color: var(--paragraphColorSecond);
 }
 
@@ -4168,7 +4242,7 @@ Campus Area 2 CSS
 
 .campus-card .content {
   position: absolute;
-  content: '';
+  content: "";
   bottom: 10%;
   left: 5%;
 }
@@ -4177,19 +4251,19 @@ Campus Area 2 CSS
   background-color: var(--whiteColor);
   padding: 10px;
   font-size: 40px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-bottom: 30px;
 }
 
 /*================================================
 Campus Tour Area CSS
 =================================================*/
-.campus-tour .content .sub-title{
+.campus-tour .content .sub-title {
   display: flex;
   margin-bottom: 30px;
   align-items: center;
 }
-.campus-tour .content .sub-title i{
+.campus-tour .content .sub-title i {
   color: var(--mainColor);
   font-size: 30px;
   margin-right: 8px;
@@ -4200,43 +4274,43 @@ Campus Tour Area CSS
   font-size: 20px;
 }
 
-.campus-tour .content{
+.campus-tour .content {
   padding: 30px 60px;
 }
 
-.campus-tour .content h2{
+.campus-tour .content h2 {
   margin-bottom: 30px;
   font-size: 48px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
-.campus-tour .content p{
+.campus-tour .content p {
   margin-bottom: 30px;
 }
-.campus-tour .content p:last-child{
+.campus-tour .content p:last-child {
   margin-bottom: 0px;
 }
 
-.campus-tour .image{
+.campus-tour .image {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 250px;
 }
-.campus-tour .image.cp-bg-1{
+.campus-tour .image.cp-bg-1 {
   background-image: url(../img/all-img/campus-1.png);
 }
-.campus-tour .image.cp-bg-2{
+.campus-tour .image.cp-bg-2 {
   background-image: url(../img/all-img/campus-2.png);
 }
-.campus-tour .image.cp-bg-3{
+.campus-tour .image.cp-bg-3 {
   background-image: url(../img/all-img/campus-3.png);
 }
 
 /*================================================
 Events Area CSS
 =================================================*/
-.events-area{
+.events-area {
   background-color: var(--secounderyColor);
 }
 .event .content {
@@ -4261,7 +4335,7 @@ Events Area CSS
 
 .event .content .text::before {
   position: absolute;
-  content: '';
+  content: "";
   width: -webkit-fill-available;
   z-index: -1;
   top: 10px;
@@ -4273,7 +4347,7 @@ Events Area CSS
   box-shadow: 1px 1px 30px #0000000d;
 }
 
-.event .content:hover .text::before{
+.event .content:hover .text::before {
   top: 0px;
   opacity: 1;
 }
@@ -4285,12 +4359,12 @@ Events Area CSS
   padding: 4px 8px;
   margin-bottom: 30px;
 }
-.event .content .text h2{
+.event .content .text h2 {
   font-size: 30px;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   margin-bottom: 20px;
 }
-.event .content .text span{
+.event .content .text span {
   color: var(--paragraphColor);
   display: inline-block;
   margin-bottom: 20px;
@@ -4298,18 +4372,18 @@ Events Area CSS
 
 .event .content .text .link {
   position: absolute;
-  content: '';
+  content: "";
   top: 12%;
   right: 5%;
 }
-.event .content .text .link a{
+.event .content .text .link a {
   color: var(--paragraphColor);
   font-size: 20px;
 }
-.event .content .text .link a:hover{
+.event .content .text .link a:hover {
   color: var(--mainColor);
 }
-.recent-post h4{
+.recent-post h4 {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -4317,7 +4391,7 @@ Events Area CSS
 .recent-post .event .content .text {
   width: 91%;
 }
-.upcoming-event h4{
+.upcoming-event h4 {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -4328,8 +4402,8 @@ Events Area CSS
   padding-left: 15px;
 }
 
-.upcoming-event .content h3{
-  font-family: 'Lexend', sans-serif;
+.upcoming-event .content h3 {
+  font-family: "Lexend", sans-serif;
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -4344,17 +4418,17 @@ Events Area CSS
   color: var(--mainColor);
   font-size: 20px;
   position: absolute;
-  content: '';
+  content: "";
   top: 1px;
   left: -5px;
 }
 
-.upcoming-event .content .link a{
+.upcoming-event .content .link a {
   color: var(--paragraphColor);
   font-size: 20px;
 }
 
-.upcoming-event .content .link a:hover{
+.upcoming-event .content .link a:hover {
   color: var(--mainColor);
 }
 
@@ -4371,7 +4445,7 @@ Events Area CSS
   justify-content: center;
 }
 
-.upcoming-event .event-dates .btn{
+.upcoming-event .event-dates .btn {
   color: var(--mainColor);
   font-weight: 500;
   position: relative;
@@ -4379,9 +4453,9 @@ Events Area CSS
   border: 0;
 }
 
-.upcoming-event .event-dates .btn i{
+.upcoming-event .event-dates .btn i {
   position: absolute;
-  content: '';
+  content: "";
   font-size: 22px;
   top: 1px;
   right: -25px;
@@ -4415,21 +4489,21 @@ Events Area CSS
   position: absolute;
   top: 15%;
   right: 6%;
-  content: '';
+  content: "";
 }
 
 /*================================================
 Event Area 2 CSS
 =================================================*/
-.events-area-2{
+.events-area-2 {
   padding-bottom: 60px;
 }
 
-.slider-event{
+.slider-event {
   position: relative;
 }
 
-.slider-event.owl-theme .owl-nav [class*=owl-]{
+.slider-event.owl-theme .owl-nav [class*="owl-"] {
   background-color: var(--secounderyColor);
   transition: var(--transition);
   margin: 0;
@@ -4447,12 +4521,12 @@ Event Area 2 CSS
   transition: var(--transition);
 }
 
-.slider-event.owl-theme .owl-nav [class*=owl-]:hover{
+.slider-event.owl-theme .owl-nav [class*="owl-"]:hover {
   color: var(--whiteColor);
   background-color: var(--mainColor);
 }
 
-.slider-event.owl-theme .owl-nav [class*=owl-].owl-next{
+.slider-event.owl-theme .owl-nav [class*="owl-"].owl-next {
   left: auto;
   right: -25px;
 }
@@ -4465,7 +4539,7 @@ Event Area 2 CSS
 /*================================================
 Success CSS
 =================================================*/
-.success-area .success-card{
+.success-area .success-card {
   position: relative;
 }
 
@@ -4484,7 +4558,7 @@ Success CSS
 
 .success-area .success-card .play {
   position: absolute;
-  content: '';
+  content: "";
   bottom: 10%;
   left: 7%;
 }
@@ -4505,7 +4579,7 @@ Success CSS
 
 .success-area .success-card .play::before {
   position: absolute;
-  content: '';
+  content: "";
   height: 65px;
   width: 65px;
   top: -7px;
@@ -4514,18 +4588,18 @@ Success CSS
   border-radius: 45px;
 }
 
-.success-area .success-card ul li h3{
-  font-family: 'Lexend', sans-serif;
+.success-area .success-card ul li h3 {
+  font-family: "Lexend", sans-serif;
   font-size: 22px;
   color: var(--whiteColor);
 }
 
-.success-area .success-card ul .link a{
+.success-area .success-card ul .link a {
   color: var(--whiteColor);
   font-size: 24px;
 }
 
-.success-area.success-area-2{
+.success-area.success-area-2 {
   background-color: var(--secounderyColor);
   border-radius: 0 0 40px 40px;
   position: relative;
@@ -4536,17 +4610,17 @@ Success CSS
 /*================================================
 Section Banner Area CSS
 =================================================*/
-.section-banner{
+.section-banner {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-.banner-spacing{
+.banner-spacing {
   padding: 200px 0;
   margin-bottom: 80px;
   position: relative;
 }
-.section-banner .section-info{
+.section-banner .section-info {
   position: absolute;
   bottom: -20%;
   left: 0%;
@@ -4558,114 +4632,113 @@ Section Banner Area CSS
   background-color: var(--mainColor);
   max-width: 628px;
 }
-.section-banner .section-info h2{
+.section-banner .section-info h2 {
   color: var(--whiteColor);
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 48px;
 }
-.section-banner .section-info p{
-  color: #EEEEEE;
+.section-banner .section-info p {
+  color: #eeeeee;
 }
-.section-banner.bg-1{
+.section-banner.bg-1 {
   background-image: url(../img/banner/section-image-1.png);
 }
-.section-banner.bg-2{
+.section-banner.bg-2 {
   background-image: url(../img/banner/section-image-2.png);
 }
-.section-banner.bg-3{
+.section-banner.bg-3 {
   background-image: url(../img/banner/section-image-3.png);
 }
-.section-banner.bg-4{
+.section-banner.bg-4 {
   background-image: url(../img/banner/section-image-4.png);
 }
-.section-banner.bg-5{
+.section-banner.bg-5 {
   background-image: url(../img/banner/section-image-5.png);
 }
-.section-banner.bg-6{
+.section-banner.bg-6 {
   background-image: url(../img/banner/section-image-6.png);
 }
-.section-banner.bg-7{
+.section-banner.bg-7 {
   background-image: url(../img/banner/section-image-7.png);
 }
-.section-banner.bg-8{
+.section-banner.bg-8 {
   background-image: url(../img/home/kpi.jpg);
 }
-.section-banner.bg-9{
+.section-banner.bg-9 {
   background-image: url(../img/banner/section-image-9.png);
 }
-.section-banner.bg-10{
+.section-banner.bg-10 {
   background-image: url(../img/banner/section-image-10.png);
 }
-.section-banner.bg-11{
+.section-banner.bg-11 {
   background-image: url(../img/banner/section-image-11.png);
 }
-.section-banner.bg-12{
+.section-banner.bg-12 {
   background-image: url(../img/banner/section-image-12.png);
 }
-.section-banner.bg-13{
+.section-banner.bg-13 {
   background-image: url(../img/banner/section-image-13.png);
 }
-.section-banner.bg-14{
+.section-banner.bg-14 {
   background-image: url(../img/banner/section-image-14.png);
   margin-bottom: 80px;
 }
-.section-banner.bg-15{
+.section-banner.bg-15 {
   background-image: url(../img/banner/section-image-15.png);
 }
-.section-banner.bg-16{
+.section-banner.bg-16 {
   background-image: url(../img/banner/section-image-16.png);
 }
 
-.section-banner.bg-17{
+.section-banner.bg-17 {
   background-image: url(../img/banner/section-image-17.png);
 }
 
-.section-banner.bg-18{
+.section-banner.bg-18 {
   background-image: url(../img/banner/section-image-18.png);
 }
 
-.section-banner.bg-19{
+.section-banner.bg-19 {
   background-image: url(../img/banner/section-image-19.png);
 }
 
-.section-banner.bg-20{
+.section-banner.bg-20 {
   background-image: url(../img/banner/section-image-20.png);
 }
 
-.section-banner.bg-21{
+.section-banner.bg-21 {
   background-image: url(../img/banner/section-image-21.png);
 }
 
-.section-banner.bg-22{
+.section-banner.bg-22 {
   background-image: url(../img/banner/section-image-22.png);
 }
-
 
 /*================================================
 Subscribe Area CSS
 =================================================*/
-.subscribe-area{
+.subscribe-area {
   background-image: url(../img/all-img/subscribe-area.jpg);
   background-size: cover;
-  position:relative;
+  position: relative;
   background-repeat: no-repeat;
   background-position: center;
 }
-.subscribe-area::before {    
-	position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-    top: 0;
-    right: 0;
-    background:#120f2d;
-	opacity:0.3;
+.subscribe-area::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background: #120f2d;
+  opacity: 0.3;
 }
-.subscribe-area .section-title p{
+.subscribe-area .section-title p {
   color: var(--whiteColor);
 }
 
-.subscribe-area .section-title h2{
+.subscribe-area .section-title h2 {
   color: var(--whiteColor);
 }
 
@@ -4674,7 +4747,7 @@ Subscribe Area CSS
   padding-bottom: 100px;
 }
 
-.subscribe-area-3{
+.subscribe-area-3 {
   background-image: url(../img/all-img/subscribe-image-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -4684,20 +4757,19 @@ Subscribe Area CSS
 
 .subscribe-area-3 .image {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -5%;
   left: 20%;
 }
 
-
-.subscribe-area-3 .content span{
+.subscribe-area-3 .content span {
   font-size: 20px;
   display: block;
   margin-bottom: 30px;
   color: var(--whiteColor);
 }
-.subscribe-area-3 .content h2{
-  font-family: 'Lexend', sans-serif;
+.subscribe-area-3 .content h2 {
+  font-family: "Lexend", sans-serif;
   color: var(--whiteColor);
   font-size: 48px;
   margin-bottom: 40px;
@@ -4723,7 +4795,7 @@ Subscribe Area CSS
   border: none;
   border-radius: 0.2rem;
 }
-.subscribe-area-3 .content .signup .btn{
+.subscribe-area-3 .content .signup .btn {
   height: 60px;
   width: 200px;
   background-color: var(--mainColor);
@@ -4737,7 +4809,7 @@ Subscribe Area CSS
 /*================================================
 Footer Area CSS
 =================================================*/
-.footer-area{
+.footer-area {
   background-image: url(../img/all-img/shape-2.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -4745,7 +4817,7 @@ Footer Area CSS
   background-color: var(--blackColor);
 }
 
-.footer-top-info{
+.footer-top-info {
   border-bottom: 1px solid #073972;
 }
 
@@ -4761,7 +4833,7 @@ Footer Area CSS
   top: -50px;
 }
 
-.footer-top-info .content p{
+.footer-top-info .content p {
   color: var(--paragraphColorSecond);
   margin-bottom: 30px;
   font-size: 22px;
@@ -4779,7 +4851,7 @@ Footer Area CSS
   margin-right: 10px;
 }
 
-.footer-top-info .content ul li:last-child{
+.footer-top-info .content ul li:last-child {
   margin-right: 0px;
 }
 
@@ -4795,26 +4867,26 @@ Footer Area CSS
   position: relative;
 }
 
-.footer-top-info .content ul li a:hover{
+.footer-top-info .content ul li a:hover {
   background-color: var(--mainColor);
   color: var(--whiteColor);
 }
 
-.footer-top-info .content ul li a i{
+.footer-top-info .content ul li a i {
   position: absolute;
   left: 0;
   right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%)
+  transform: translateY(-50%);
 }
 
-.footer-widget-info{
+.footer-widget-info {
   border-bottom: 1px solid #073972;
 }
 
 .footer-widget-info .footer-widget h4 {
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 24px;
   color: var(--whiteColor);
   margin-bottom: 30px;
@@ -4831,7 +4903,7 @@ Footer Area CSS
   padding-left: 30px;
 }
 
-.footer-widget-info .footer-widget ul li:last-child{
+.footer-widget-info .footer-widget ul li:last-child {
   margin-bottom: 0px;
 }
 
@@ -4840,7 +4912,7 @@ Footer Area CSS
   position: relative;
 }
 
-.footer-widget-info .footer-widget ul li a:hover{
+.footer-widget-info .footer-widget ul li a:hover {
   color: var(--whiteColor);
 }
 
@@ -4848,43 +4920,42 @@ Footer Area CSS
   color: var(--mainColor);
   font-size: 22px;
   position: absolute;
-  content: '';
+  content: "";
   left: -35px;
   top: 2px;
 }
 
-.footer-widget-info .footer-widget .image{
+.footer-widget-info .footer-widget .image {
   margin-bottom: 30px;
 }
 
-.footer-widget-info .footer-widget .info-links{
+.footer-widget-info .footer-widget .info-links {
   margin-top: 30px;
 }
 
-.footer-widget-info .footer-widget .info-links a{
+.footer-widget-info .footer-widget .info-links a {
   color: var(--blackColor);
   font-weight: 500;
 }
 
-.footer-widget-info .footer-widget .info-links a:hover{
+.footer-widget-info .footer-widget .info-links a:hover {
   color: var(--mainColor);
 }
 
-.copy-right-area{
+.copy-right-area {
   padding: 20px 0;
 }
 
-.copy-right-area .cpr-left{
- 
+.copy-right-area .cpr-left {
 }
 
-.copy-right-area .cpr-left p{
- color: var(--paragraphColorSecond);
+.copy-right-area .cpr-left p {
+  color: var(--paragraphColorSecond);
 }
 
-.copy-right-area .cpr-left P a{
- color: var(--whiteColor);
- font-weight: 600;
+.copy-right-area .cpr-left P a {
+  color: var(--whiteColor);
+  font-weight: 600;
 }
 
 .copy-right-area .cpr-right {
@@ -4906,40 +4977,40 @@ Footer Area CSS
   margin-right: 25px;
 }
 
-.copy-right-area .cpr-right ul li:last-child{
+.copy-right-area .cpr-right ul li:last-child {
   margin-right: 0px;
 }
 
-.copy-right-area .cpr-right ul li a{
- color: var(--paragraphColorSecond);
+.copy-right-area .cpr-right ul li a {
+  color: var(--paragraphColorSecond);
 }
 
-.copy-right-area .cpr-right ul li a:hover{
- color: var(--whiteColor);
+.copy-right-area .cpr-right ul li a:hover {
+  color: var(--whiteColor);
 }
 
-.copy-right-area.style-2{
+.copy-right-area.style-2 {
   background-color: var(--mainColor);
   position: relative;
 }
 
-.copy-right-area.style-2 .copy-logo{
+.copy-right-area.style-2 .copy-logo {
   position: absolute;
-  content: '';
+  content: "";
   top: -60%;
   left: 0;
   right: 0;
   text-align: center;
 }
 
-.copy-right-area.style-2 .cpr-left p{
+.copy-right-area.style-2 .cpr-left p {
   color: var(--whiteColor);
 }
 
-.copy-right-area.style-2 .cpr-right ul li a{
+.copy-right-area.style-2 .cpr-right ul li a {
   color: var(--whiteColor);
- }
- 
+}
+
 .copy-right-area.style-2 {
   padding-top: 40px;
 }
@@ -4957,7 +5028,7 @@ Footer Area CSS
   margin-right: 10px;
 }
 
-.copy-right-area.style-2  .social-list li:last-child{
+.copy-right-area.style-2 .social-list li:last-child {
   margin-right: 0px;
 }
 
@@ -4973,7 +5044,7 @@ Footer Area CSS
   position: relative;
 }
 
-.copy-right-area.style-2 .social-list li a i{
+.copy-right-area.style-2 .social-list li a i {
   color: var(--blackColor);
   position: absolute;
   left: 0;
@@ -4984,28 +5055,26 @@ Footer Area CSS
   transition: var(--transition);
 }
 
-.copy-right-area.style-2 .social-list li a:hover i{
+.copy-right-area.style-2 .social-list li a:hover i {
   color: var(--mainColor) !important;
 }
 
-
-.footer-area-3{
+.footer-area-3 {
   background-color: var(--secounderyColor);
 }
 
-
-.footer-area-3 .footer-top-info .left-content{
+.footer-area-3 .footer-top-info .left-content {
   position: relative;
 }
 
-.footer-area-3 .footer-top-info .left-content p{
+.footer-area-3 .footer-top-info .left-content p {
   color: var(--blackColor);
   font-size: 20px;
   font-weight: 500;
   padding-left: 60px;
 }
 
-.footer-area-3 .footer-top-info .left-content p a{
+.footer-area-3 .footer-top-info .left-content p a {
   color: var(--mainColor);
 }
 
@@ -5016,31 +5085,31 @@ Footer Area CSS
   top: -10px;
 }
 
-.footer-area-3 .footer-top-info .right-content{
+.footer-area-3 .footer-top-info .right-content {
   text-align: end;
   position: relative;
 }
 
 .footer-area-3 .footer-top-info .right-content span {
   position: absolute;
-  content: '';
+  content: "";
   top: 10px;
   right: 37%;
 }
 
-.footer-area-3 .footer-top-info .right-content ul{
+.footer-area-3 .footer-top-info .right-content ul {
   list-style: none;
   padding: 0;
   display: inline-block;
   margin: 0;
 }
 
-.footer-area-3 .footer-top-info .right-content ul li{
+.footer-area-3 .footer-top-info .right-content ul li {
   display: inline-block;
   margin-right: 10px;
 }
 
-.footer-area-3 .footer-top-info .right-content ul li a{
+.footer-area-3 .footer-top-info .right-content ul li a {
   display: block;
   background-color: var(--whiteColor);
   height: 40px;
@@ -5053,7 +5122,7 @@ Footer Area CSS
   color: var(--whiteColor);
 }
 
-.footer-area-3 .footer-top-info .right-content ul li a i{
+.footer-area-3 .footer-top-info .right-content ul li a i {
   color: var(--blackColor);
   position: absolute;
   left: 0;
@@ -5064,39 +5133,39 @@ Footer Area CSS
   transition: var(--transition);
 }
 
-.footer-area-3 .footer-top-info{
-  border-bottom: 1px solid #DDDDDD;
+.footer-area-3 .footer-top-info {
+  border-bottom: 1px solid #dddddd;
 }
 
-.footer-area-3 .footer-widget-info .footer-widget h4{
+.footer-area-3 .footer-widget-info .footer-widget h4 {
   color: var(--blackColor);
 }
 
-.footer-area-3 .footer-widget-info .footer-widget ul li a{
+.footer-area-3 .footer-widget-info .footer-widget ul li a {
   color: var(--paragraphColor);
 }
 
-.footer-area-3 .footer-widget-info .footer-widget ul li a:hover{
+.footer-area-3 .footer-widget-info .footer-widget ul li a:hover {
   color: var(--mainColor);
 }
 
-.footer-area-3 .footer-widget-info{
-  border-bottom: 1px solid #DDDDDD;
+.footer-area-3 .footer-widget-info {
+  border-bottom: 1px solid #dddddd;
 }
 
-.footer-area-3 .copy-right-area .cpr-left p{
+.footer-area-3 .copy-right-area .cpr-left p {
   color: var(--paragraphColor);
 }
 
-.footer-area-3 .copy-right-area .cpr-left P a{
+.footer-area-3 .copy-right-area .cpr-left P a {
   color: var(--mainColor);
 }
 
-.footer-area-3 .copy-right-area .cpr-right ul li a{
+.footer-area-3 .copy-right-area .cpr-right ul li a {
   color: var(--paragraphColor);
 }
 
-.footer-area-3 .copy-right-area .cpr-right ul li a:hover{
+.footer-area-3 .copy-right-area .cpr-right ul li a:hover {
   color: var(--mainColor);
 }
 
@@ -5120,7 +5189,7 @@ Go Top CSS
   -webkit-transition: var(--transition);
   transition: var(--transition);
   -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .go-top i {
@@ -5129,7 +5198,7 @@ Go Top CSS
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -5191,14 +5260,14 @@ Go Top CSS
 @keyframes slide {
   0% {
     scale: 1;
- }
+  }
   50% {
     scale: 2;
     opacity: 0.3;
- }
+  }
   100% {
     scale: 1;
- }
+  }
 }
 
 .carousel-container {
@@ -5249,4 +5318,24 @@ Go Top CSS
 
 .dot.active {
   background-color: #001c48;
+}
+
+.staff-image {
+  height: 200px;
+  max-width: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid #0000000f;
+}
+
+@media (max-width: 767px) {
+  .staff-image {
+    height: 100%;
+    max-width: 100%;
+  }
+
+  .staff-image-container {
+    margin-bottom: 15px;
+  }
 }
