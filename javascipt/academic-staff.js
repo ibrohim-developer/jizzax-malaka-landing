@@ -115,7 +115,7 @@ const academicStaff = [
   },
   {
     id: 12,
-    image: './assets/img/staff/academic-category-2.jpg',
+    image: './assets/img/staff/academic-category-2-2.png',
     name: 'Nigora Erkinovna ERGASHEVA',
     description: "Kafedra katta o‘qituvchisi N.Ergasheva ko‘p yillik peda- gogik tajriba va mahoratga ega. U ilg‘or pedagog sifatida zamonaviy ta’lim va axborot texnologiyalaridan foydalan- gan holda malaka oshirish tizimida samarali mehnat qilib kelmoqda. Uning dars mashg‘ulotlarini qiziqarli tashkil etish maqsadida yaratgan metodik ishlari “Domino”, “Soyabon”, “Besh barmoq” kabi didaktik o‘yinlari hamda ko‘rgazma- li vositalari markaz professor-o‘qituvchilari va tinglovchilar e’tiborini tortgan.",
     position: 'Dotsent',
@@ -157,7 +157,7 @@ const academicStaff = [
   },
   {
     id: 16,
-    image: './assets/img/staff/user-image.jpg',
+    image: './assets/img/staff/academic-category-2-6.jpg',
     name: 'Gapparova Zilola NEYMAT Qizi',
     description: "Uning pedagogik faoliyati 2018-yil Jizzax shahar 21-son “Orzu” MTT tarbiyachiligidan boshlangan. 2025-yildan Jizzax viloyati pedagogik mahorat markazi Maktabgacha, boshlang‘ich va maxsus ta’lim kafedrasida o‘qituvchi bo‘lib ishlab kelmoqda.",
     position: 'O‘qituvchi',
