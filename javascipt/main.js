@@ -1,5 +1,5 @@
 const newsSection = document.getElementById('news')
-import { data } from '../javascipt/news.js'
+import { data } from './newsData.js'
 async function getNews () {
   console.log(data)
   mapNews(data)

@@ -168,7 +168,7 @@ const academicStaff = [
   },
   {
     id: 17,
-    image: './assets/img/staff/user-image.jpg',
+    image: './assets/img/staff/academic-category-2-7.jpg',
     name: 'Begmatova Munira TOLIBJON Qizi',
     description: "2014-2024-yillarda Jizzax shah- ridagi 32-maktabgacha ta’lim tashkilotida tarbiyachi bo‘lib, o‘zining pedagogik faoliyatini boshlagan. 2018-2021-yillarida Jizzax davlat pedagogika unversitetining maktabgacha ta’lim yo‘nalishi sirtqi bo‘limida talaba bo‘lgan. 2025-yil yanvar oyidan boshlab Jizzax viloyati pedagogik mahorat markazi Maktabgacha, boshlang‘ich va maxsus ta’lim metodikalari kafedrasida o‘qituvchi bo‘lib ishlab kelmoqda.",
     position: 'O‘qituvchi',
@@ -190,7 +190,7 @@ const academicStaff = [
   },
   {
     id: 19,
-    image: './assets/img/staff/user-image.jpg',
+    image: './assets/img/staff/academic-category-2-9.jpg',
     name: 'Dilbar Rustamovna ABDUXOLIQOVA',
     description: "U pedagogik faoliyatini 2017-yil Qashqadaryo viloyati Qarshi shahar 25-umumiy o‘rta ta’lim maktabida boshlan- g‘ich ta’lim o‘qituvchisi lavozimidadan boshlagan. 2025-yil mart oyidan hozirgi kungacha Jizzax viloyati pedagogik mahorat markazi “Maktabgacha boshlang‘ich va maxsus ta’lim” kafedirasi o‘qituvchisi lavozimida ishlab kelmoqda.",
     position: 'Katta o‘qituvchi',

@@ -1,5 +1,5 @@
 const blogsSection = document.getElementById('blogs')
-import { data } from "../javascipt/news";
+import { data } from "./newsData.js";
 
 async function getNews () {
     console.log(data)
@@ -10,7 +10,7 @@ getNews()
 function mapNews(data) {
     return data.forEach((item) => {
       blogsSection.innerHTML += `
-          <div key="${item.id}" class="col-lg-6 col-sm-6 col-md-6" style="cursor: pointer" onclick="window.location.href='blog.html?id=${item.documentId}'">
+          <div key="${item.id}" class="col-lg-4 col-sm-6 col-md-6" style="cursor: pointer" onclick="window.location.href='blog.html?id=${item.documentId}'">
             <div
               class="activities-card style-2"
               data-aos="fade-up"
@@ -18,7 +18,7 @@ function mapNews(data) {
             >
                 <div class="image">
                   <img
-                    src="http://localhost:1337${item.image.url}"
+                    src="http://localhost:1337${item.image}"
                     alt="image"
                     style="height: 250px; object-fit: cover"
                   />
