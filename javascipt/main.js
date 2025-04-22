@@ -32,8 +32,8 @@ function mapNews (data) {
                   ${truncateText(item.description, 18)}
                 </p>
                 <div style="display: flex; align-items: center">
-                  <i class="bx bxs-time" style="color: #2eca7f"></i>
-                  <p style="margin-left: 5px; color: #2eca7f">
+                  <i class="bx bxs-time" style="color: #002147"></i>
+                  <p style="margin-left: 5px; color: #002147">
                     ${item.createdAt}
                   </p>
                 </div>

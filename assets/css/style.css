@@ -2833,7 +2833,7 @@ News Area CSS
 }
 
 .section-btn a {
-  color: var(--mainColor);
+  color: #002147;
   position: relative;
   font-weight: 500;
 }
@@ -4101,7 +4101,7 @@ Activities CSS
 =================================================*/
 
 .activities-area {
-  background-color: var(--secounderyColor);
+  background-color: #f0f7ff;
 }
 
 .activities-card {
@@ -5177,7 +5177,7 @@ Go Top CSS
   cursor: pointer;
   bottom: 20px;
   right: 20px;
-  background-color: var(--mainColor);
+  background-color: #002147;
   color: var(--whiteColor);
   z-index: 4;
   width: 43px;
@@ -5247,15 +5247,15 @@ Go Top CSS
 }
 .preloader-dot:nth-child(3) {
   animation-delay: 0.3s;
-  background: #2eca7f;
+  background: #002147;
 }
 .preloader-dot:nth-child(4) {
   animation-delay: 0.4s;
-  background: #2eca7f;
+  background: #002147;
 }
 .preloader-dot:nth-child(5) {
   animation-delay: 0.5s;
-  background: var(--mainColor);
+  background: #002147;
 }
 @keyframes slide {
   0% {
